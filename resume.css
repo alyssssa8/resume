@@ -1,0 +1,54 @@
+body{
+  margin:100px;
+}
+li.icon{
+  padding:8px;
+
+}
+
+
+.header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type:disc;
+}
+i{
+  color:blue;
+}
+
+#degree{
+  list-style-type: none;
+
+}
+.work_experience{
+  padding-top: 25px;
+}
+#ms{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#bs{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.when{
+  font-family:sans-serif;
+  font-style: italic;
+}
+
+.experience{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

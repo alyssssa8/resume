@@ -1,0 +1,4 @@
+﻿  LeetCode581ShortestUnsortedContinuousSubarray.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode581shortestunsortedcontinuoussubarray\leetcode581shortestunsortedcontinuoussubarray.cpp(52): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode581shortestunsortedcontinuoussubarray\leetcode581shortestunsortedcontinuoussubarray.cpp(66): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LeetCode581ShortestUnsortedContinuousSubarray.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode581ShortestUnsortedContinuousSubarray.exe

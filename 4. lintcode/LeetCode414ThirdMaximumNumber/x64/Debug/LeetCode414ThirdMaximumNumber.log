@@ -1,0 +1,3 @@
+﻿  LeetCode414ThirdMaximumNumber.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode414thirdmaximumnumber\leetcode414thirdmaximumnumber.cpp(53): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  LeetCode414ThirdMaximumNumber.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode414ThirdMaximumNumber.exe

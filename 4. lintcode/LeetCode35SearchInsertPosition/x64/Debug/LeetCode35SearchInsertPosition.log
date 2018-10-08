@@ -1,0 +1,7 @@
+﻿  LeetCode35SearchInsertPosition.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode35searchinsertposition\leetcode35searchinsertposition.cpp(53): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode35searchinsertposition\leetcode35searchinsertposition.cpp(74): error C2011: 'Solution': 'class' type redefinition
+  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode35searchinsertposition\leetcode35searchinsertposition.cpp(48): note: see declaration of 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode35searchinsertposition\leetcode35searchinsertposition.cpp(109): error C2079: 'question' uses undefined class 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode35searchinsertposition\leetcode35searchinsertposition.cpp(110): error C2228: left of '.searchInsert' must have class/struct/union
+  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode35searchinsertposition\leetcode35searchinsertposition.cpp(110): note: type is 'int'

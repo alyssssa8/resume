@@ -1,0 +1,4 @@
+﻿  LeetCode171ExcelSheetColumnNumber.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode171excelsheetcolumnnumber\leetcode171excelsheetcolumnnumber.cpp(57): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode171excelsheetcolumnnumber\leetcode171excelsheetcolumnnumber.cpp(69): warning C4018: '<': signed/unsigned mismatch
+  LeetCode171ExcelSheetColumnNumber.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode171ExcelSheetColumnNumber.exe

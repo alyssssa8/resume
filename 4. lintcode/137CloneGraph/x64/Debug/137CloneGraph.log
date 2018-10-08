@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (137CloneGraph.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  137CloneGraph.cpp
+  137CloneGraph.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\133CloneGraph.exe

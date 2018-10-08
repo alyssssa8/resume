@@ -1,0 +1,3 @@
+﻿  LeetCode283MoveZeroes.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode283movezeroes\leetcode283movezeroes.cpp(33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LeetCode283MoveZeroes.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode283MoveZeroes.exe

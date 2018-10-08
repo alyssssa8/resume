@@ -1,0 +1,4 @@
+﻿  LeetCode532K-diffPairsInAnArray.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode532k-diffpairsinanarray\leetcode532k-diffpairsinanarray.cpp(54): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode532k-diffpairsinanarray\leetcode532k-diffpairsinanarray.cpp(78): warning C4018: '<': signed/unsigned mismatch
+  LeetCode532K-diffPairsInAnArray.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode532K-diffPairsInAnArray.exe

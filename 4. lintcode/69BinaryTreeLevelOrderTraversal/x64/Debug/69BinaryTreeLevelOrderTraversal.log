@@ -1,0 +1,4 @@
+﻿  69BinaryTreeLevelOrderTraversal.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\69binarytreelevelordertraversal\69binarytreelevelordertraversal.cpp(139): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\69binarytreelevelordertraversal\69binarytreelevelordertraversal.cpp(206): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  69BinaryTreeLevelOrderTraversal.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\69BinaryTreeLevelOrderTraversal.exe

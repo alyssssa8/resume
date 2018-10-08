@@ -1,0 +1,6 @@
+﻿  433NumberOfIslands.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\433numberofislands\433numberofislands.cpp(43): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\433numberofislands\433numberofislands.cpp(48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\433numberofislands\433numberofislands.cpp(111): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\433numberofislands\433numberofislands.cpp(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  433NumberOfIslands.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\433NumberOfIslands.exe

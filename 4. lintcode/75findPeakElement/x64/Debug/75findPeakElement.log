@@ -1,0 +1,5 @@
+﻿  75findPeakElement.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\75findpeakelement\75findpeakelement.cpp(30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\75findpeakelement\75findpeakelement.cpp(50): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\75findpeakelement\75findpeakelement.cpp(81): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  75findPeakElement.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\75findPeakElement.exe

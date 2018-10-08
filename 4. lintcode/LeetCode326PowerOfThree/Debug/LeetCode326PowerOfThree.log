@@ -1,0 +1,9 @@
+﻿  LeetCode326PowerOfThree.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode326powerofthree\leetcode326powerofthree.cpp(53): error C2011: 'Solution': 'class' type redefinition
+  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode326powerofthree\leetcode326powerofthree.cpp(37): note: see declaration of 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode326powerofthree\leetcode326powerofthree.cpp(75): error C2079: 'question' uses undefined class 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode326powerofthree\leetcode326powerofthree.cpp(76): error C2228: left of '.isPowerOfThree' must have class/struct/union
+  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode326powerofthree\leetcode326powerofthree.cpp(76): note: type is 'int'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode326powerofthree\leetcode326powerofthree.cpp(77): error C2079: 'question2' uses undefined class 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode326powerofthree\leetcode326powerofthree.cpp(78): error C2228: left of '.isPowerOfThree' must have class/struct/union
+  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode326powerofthree\leetcode326powerofthree.cpp(78): note: type is 'int'

@@ -1,0 +1,4 @@
+﻿  136PalindromPartitioning.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\136palindrompartitioning\136palindrompartitioning.cpp(83): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\136palindrompartitioning\136palindrompartitioning.cpp(180): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  136PalindromPartitioning.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\136PalindromPartitioning.exe

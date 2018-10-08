@@ -1,0 +1,7 @@
+﻿  159FindMinimumInRotatedSortedArray.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\159findminimuminrotatedsortedarray\159findminimuminrotatedsortedarray.cpp(22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\159findminimuminrotatedsortedarray\159findminimuminrotatedsortedarray.cpp(50): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\159findminimuminrotatedsortedarray\159findminimuminrotatedsortedarray.cpp(72): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\159findminimuminrotatedsortedarray\159findminimuminrotatedsortedarray.cpp(111): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\159findminimuminrotatedsortedarray\159findminimuminrotatedsortedarray.cpp(42): warning C4715: 'test::findMin': not all control paths return a value
+  159FindMinimumInRotatedSortedArray.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\159FindMinimumInRotatedSortedArray.exe

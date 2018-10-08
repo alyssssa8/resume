@@ -1,0 +1,6 @@
+﻿  LeetCode167TwoSumll.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode167twosumll\leetcode167twosumll.cpp(34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode167twosumll\leetcode167twosumll.cpp(115): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode167twosumll\leetcode167twosumll.cpp(189): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode167twosumll\leetcode167twosumll.cpp(101): warning C4715: 'Test2::twoSum': not all control paths return a value
+  LeetCode167TwoSumll.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode167TwoSumll.exe

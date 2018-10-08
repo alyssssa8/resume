@@ -1,0 +1,3 @@
+﻿  LeetCode532K-diffPairsInAnArray.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode532k-diffpairsinanarray\leetcode532k-diffpairsinanarray.cpp(65): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  LeetCode532K-diffPairsInAnArray.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode532K-diffPairsInAnArray.exe

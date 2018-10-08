@@ -1,0 +1,8 @@
+﻿  28SearchA2DMaatrix.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\28searcha2dmatrix\28searcha2dmaatrix.cpp(34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\28searcha2dmatrix\28searcha2dmaatrix.cpp(35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\28searcha2dmatrix\28searcha2dmaatrix.cpp(67): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\28searcha2dmatrix\28searcha2dmaatrix.cpp(68): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\28searcha2dmatrix\28searcha2dmaatrix.cpp(115): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\28searcha2dmatrix\28searcha2dmaatrix.cpp(116): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  28SearchA2DMatrix.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\28SearchA2DMatrix.exe

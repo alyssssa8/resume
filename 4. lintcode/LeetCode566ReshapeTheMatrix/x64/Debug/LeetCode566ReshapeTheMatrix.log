@@ -1,0 +1,4 @@
+﻿  LeetCode566ReshapeTheMatrix.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode566reshapethematrix\leetcode566reshapethematrix.cpp(71): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode566reshapethematrix\leetcode566reshapethematrix.cpp(72): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LeetCode566ReshapeTheMatrix.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode566ReshapeTheMatrix.exe

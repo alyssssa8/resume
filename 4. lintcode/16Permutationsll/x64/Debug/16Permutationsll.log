@@ -1,0 +1,3 @@
+﻿  16Permutationsll.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\16permutationsll\16permutationsll.cpp(106): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  16Permutationsll.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\16Permutationsll.exe

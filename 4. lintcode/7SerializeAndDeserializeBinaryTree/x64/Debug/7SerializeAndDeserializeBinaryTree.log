@@ -1,0 +1,11 @@
+﻿  7SerializeAndDeserializeBinaryTree .cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(1): error C2059: syntax error: ':'
+c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(2): error C2086: 'int https': redefinition
+  c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(1): note: see declaration of 'https'
+c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(2): error C2059: syntax error: ':'
+c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(3): error C2086: 'int https': redefinition
+  c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(1): note: see declaration of 'https'
+c:\users\yu\desktop\study\mycode\4. lintcode\7serializeanddeserializebinarytree\7serializeanddeserializebinarytree .cpp(3): error C2059: syntax error: ':'

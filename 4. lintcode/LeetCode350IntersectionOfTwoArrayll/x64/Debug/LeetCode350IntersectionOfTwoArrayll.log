@@ -1,0 +1,5 @@
+﻿  LeetCode350IntersectionOfTwoArrayll.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode350intersectionoftwoarrayll\leetcode350intersectionoftwoarrayll.cpp(41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode350intersectionoftwoarrayll\leetcode350intersectionoftwoarrayll.cpp(68): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode350intersectionoftwoarrayll\leetcode350intersectionoftwoarrayll.cpp(69): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LeetCode350IntersectionOfTwoArrayll.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode350IntersectionOfTwoArrayll.exe

@@ -1,0 +1,5 @@
+﻿  LeetCode434NumberOfSegmentsInAString.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode434numberofsegmentsinastring\leetcode434numberofsegmentsinastring.cpp(29): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode434numberofsegmentsinastring\leetcode434numberofsegmentsinastring.cpp(48): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode434numberofsegmentsinastring\leetcode434numberofsegmentsinastring.cpp(62): warning C4018: '<': signed/unsigned mismatch
+  LeetCode434NumberOfSegmentsInAString.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode434NumberOfSegmentsInAString.exe

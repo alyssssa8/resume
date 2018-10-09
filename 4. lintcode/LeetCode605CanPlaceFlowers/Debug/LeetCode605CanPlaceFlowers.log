@@ -1,0 +1,6 @@
+﻿  LeetCode605CanPlaceFlowers.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode605canplaceflowers\leetcode605canplaceflowers.cpp(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode605canplaceflowers\leetcode605canplaceflowers.cpp(54): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode605canplaceflowers\leetcode605canplaceflowers.cpp(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode605canplaceflowers\leetcode605canplaceflowers.cpp(88): warning C4018: '<': signed/unsigned mismatch
+  LeetCode605CanPlaceFlowers.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode605CanPlaceFlowers.exe

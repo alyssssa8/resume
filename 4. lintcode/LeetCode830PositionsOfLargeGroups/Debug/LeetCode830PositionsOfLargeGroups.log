@@ -1,0 +1,5 @@
+﻿  LeetCode830PositionsOfLargeGroups.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode830positionsoflargegroups\leetcode830positionsoflargegroups.cpp(52): warning C4018: '<=': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode830positionsoflargegroups\leetcode830positionsoflargegroups.cpp(72): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode830positionsoflargegroups\leetcode830positionsoflargegroups.cpp(75): warning C4018: '<': signed/unsigned mismatch
+  LeetCode830PositionsOfLargeGroups.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode830PositionsOfLargeGroups.exe

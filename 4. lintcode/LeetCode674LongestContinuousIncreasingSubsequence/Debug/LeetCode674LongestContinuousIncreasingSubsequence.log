@@ -1,0 +1,6 @@
+﻿  LeetCode674LongestContinuousIncreasingSubsequence.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode674longestcontinuousincreasingsubsequence\leetcode674longestcontinuousincreasingsubsequence.cpp(33): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode674longestcontinuousincreasingsubsequence\leetcode674longestcontinuousincreasingsubsequence.cpp(50): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode674longestcontinuousincreasingsubsequence\leetcode674longestcontinuousincreasingsubsequence.cpp(71): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode674longestcontinuousincreasingsubsequence\leetcode674longestcontinuousincreasingsubsequence.cpp(100): warning C4018: '<': signed/unsigned mismatch
+  LeetCode674LongestContinuousIncreasingSubsequence.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode674LongestContinuousIncreasingSubsequence.exe

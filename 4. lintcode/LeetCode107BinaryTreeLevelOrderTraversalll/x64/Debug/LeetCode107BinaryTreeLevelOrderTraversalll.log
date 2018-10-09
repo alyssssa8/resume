@@ -1,0 +1,4 @@
+﻿  LeetCode107BinaryTreeLevelOrderTraversalll.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode107binarytreelevelordertraversalll\leetcode107binarytreelevelordertraversalll.cpp(94): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode107binarytreelevelordertraversalll\leetcode107binarytreelevelordertraversalll.cpp(257): warning C4101: 'question4': unreferenced local variable
+  LeetCode107BinaryTreeLevelOrderTraversalll.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode107BinaryTreeLevelOrderTraversalll.exe

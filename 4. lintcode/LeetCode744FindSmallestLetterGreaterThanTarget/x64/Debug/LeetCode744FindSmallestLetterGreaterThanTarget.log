@@ -1,0 +1,4 @@
+﻿  LeetCode744FindSmallestLetterGreaterThanTarget.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode744findsmallestlettergreaterthantarget\leetcode744findsmallestlettergreaterthantarget.cpp(60): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode744findsmallestlettergreaterthantarget\leetcode744findsmallestlettergreaterthantarget.cpp(92): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  LeetCode744FindSmallestLetterGreaterThanTarget.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode744FindSmallestLetterGreaterThanTarget.exe

@@ -1,0 +1,4 @@
+﻿  LeetCode205IsomorphicStrings.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode205isomorphicstrings\leetcode205isomorphicstrings.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode205isomorphicstrings\leetcode205isomorphicstrings.cpp(71): warning C4101: 'test4': unreferenced local variable
+  LeetCode205IsomorphicStrings.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode205IsomorphicStrings.exe

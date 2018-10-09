@@ -1,0 +1,3 @@
+﻿  LeetCode448FindAllNumbersDisapparedInAnArray.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode448findallnumbersdisapparedinanarray\leetcode448findallnumbersdisapparedinanarray.cpp(63): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LeetCode448FindAllNumbersDisapparedInAnArray.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\LeetCode448FindAllNumbersDisapparedInAnArray.exe

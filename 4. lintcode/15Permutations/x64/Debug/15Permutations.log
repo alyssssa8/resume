@@ -1,0 +1,3 @@
+﻿  15Permutations.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\15permutations\15permutations.cpp(155): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  15Permutations.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\x64\Debug\15Permutations.exe

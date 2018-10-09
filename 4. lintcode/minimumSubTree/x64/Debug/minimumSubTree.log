@@ -1,0 +1,6 @@
+﻿  mininumSubTree.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\minimumsubtree\mininumsubtree.cpp(67): error C2011: 'Solution': 'class' type redefinition
+  c:\users\yu\desktop\study\mycode\4. lintcode\minimumsubtree\mininumsubtree.cpp(31): note: see declaration of 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\minimumsubtree\mininumsubtree.cpp(125): error C2079: 's' uses undefined class 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\minimumsubtree\mininumsubtree.cpp(126): error C2228: left of '.findSubtree2' must have class/struct/union
+  c:\users\yu\desktop\study\mycode\4. lintcode\minimumsubtree\mininumsubtree.cpp(126): note: type is 'int'

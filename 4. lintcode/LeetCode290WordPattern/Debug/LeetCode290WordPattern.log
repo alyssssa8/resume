@@ -1,0 +1,8 @@
+﻿  LeetCode290WordPattern.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode290wordpattern\leetcode290wordpattern.cpp(51): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode290wordpattern\leetcode290wordpattern.cpp(61): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode290wordpattern\leetcode290wordpattern.cpp(85): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode290wordpattern\leetcode290wordpattern.cpp(98): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode290wordpattern\leetcode290wordpattern.cpp(124): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode290wordpattern\leetcode290wordpattern.cpp(137): warning C4018: '<': signed/unsigned mismatch
+  LeetCode290WordPattern.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode290WordPattern.exe

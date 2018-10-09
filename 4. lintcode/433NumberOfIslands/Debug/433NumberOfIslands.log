@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(399,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build.
+  433NumberOfIslands.cpp
+c:\users\yu\desktop\school\cs\lintcode\lintcode\433numberofislands\433numberofislands.cpp(85): warning C4018: '>=': signed/unsigned mismatch
+  433NumberOfIslands.vcxproj -> C:\Users\Yu\Desktop\school\CS\lintcode\lintcode\Debug\433NumberOfIslands.exe

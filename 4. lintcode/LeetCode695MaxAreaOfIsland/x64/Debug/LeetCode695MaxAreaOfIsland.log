@@ -1,0 +1,11 @@
+﻿  LeetCode695MaxAreaOfIsland.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(43): error C2011: 'Solution': 'class' type redefinition
+  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(35): note: see declaration of 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(66): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(74): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(106): error C2079: 'question' uses undefined class 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(107): error C2228: left of '.maxAreaOfIsland' must have class/struct/union
+  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(107): note: type is 'int'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(108): error C2079: 'question2' uses undefined class 'Solution'
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(109): error C2228: left of '.maxAreaOfIsland' must have class/struct/union
+  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode695maxareaofisland\leetcode695maxareaofisland.cpp(109): note: type is 'int'

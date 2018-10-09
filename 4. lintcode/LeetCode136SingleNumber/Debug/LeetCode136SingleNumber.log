@@ -1,0 +1,8 @@
+﻿  LeetCode136SingleNumber.cpp
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode136singlenumber\leetcode136singlenumber.cpp(57): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode136singlenumber\leetcode136singlenumber.cpp(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode136singlenumber\leetcode136singlenumber.cpp(73): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode136singlenumber\leetcode136singlenumber.cpp(86): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode136singlenumber\leetcode136singlenumber.cpp(89): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\desktop\study\mycode\4. lintcode\leetcode136singlenumber\leetcode136singlenumber.cpp(95): warning C4715: 'Solution::singleNumber': not all control paths return a value
+  LeetCode136SingleNumber.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode136SingleNumber.exe

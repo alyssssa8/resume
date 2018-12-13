@@ -1,8 +1,1 @@
-﻿  LeetCode389FindTheDifference.cpp
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode389findthedifference\leetcode389findthedifference.cpp(54): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode389findthedifference\leetcode389findthedifference.cpp(57): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode389findthedifference\leetcode389findthedifference.cpp(60): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode389findthedifference\leetcode389findthedifference.cpp(72): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode389findthedifference\leetcode389findthedifference.cpp(75): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode389findthedifference\leetcode389findthedifference.cpp(82): warning C4715: 'Solution::findTheDifference': not all control paths return a value
-  LeetCode389FindTheDifference.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode389FindTheDifference.exe
+﻿  LeetCode389FindTheDifference.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode389FindTheDifference.exe

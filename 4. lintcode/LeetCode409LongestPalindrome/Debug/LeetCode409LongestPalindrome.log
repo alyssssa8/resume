@@ -1,6 +1,1 @@
-﻿  LeetCode409Longest Palindrome.cpp
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode409longestpalindrome\leetcode409longest palindrome.cpp(42): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode409longestpalindrome\leetcode409longest palindrome.cpp(65): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode409longestpalindrome\leetcode409longest palindrome.cpp(81): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode409longestpalindrome\leetcode409longest palindrome.cpp(88): warning C4018: '<': signed/unsigned mismatch
-  LeetCode409LongestPalindrome.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode409LongestPalindrome.exe
+﻿  LeetCode409LongestPalindrome.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode409LongestPalindrome.exe

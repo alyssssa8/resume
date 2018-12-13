@@ -42,7 +42,7 @@
 using namespace std;
 // 3, 1, 4, 1, 5 
 //2
-class Solution2 {
+class Solution3 {
 public:
 	int findPairs(vector<int>& nums, int k) {
 
@@ -70,7 +70,7 @@ public:
 // not repeat value count: (3,1) count as one pair. 
 //Input: [3, 1, 4, 1, 5], k = 2
 //	Output : 2
-class Solution {
+class Solution2 {
 public:
 	int findPairs(vector<int>& nums, int k) {
 		if (k < 0) return 0;  // must have this

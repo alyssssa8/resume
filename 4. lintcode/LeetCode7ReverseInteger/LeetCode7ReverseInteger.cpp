@@ -66,14 +66,26 @@ public:
 	}
 };
 
+class Solution3 {
+public:
+    int reverse(int x) {
+        int ans = 0;
+        while (x > 0) {
+            x /= 10;
+            int temp = x % 10;
+            ans = ans * 10 + temp;
+        }
+        return ans;
+    }
+};
 
 int main()
 {
 
 
-	vector<int>nums({ 3, 1 ,0 });
-	Solution question;
-	question.reverse(-120);
+	
+	Solution3 question;
+	question.reverse(123);
 	Solution2 question2;
 	question2.reverse(250);
 

@@ -1,3 +1,6 @@
 ﻿  LeetCode832FlippingAnImage.cpp
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode832flippinganimage\leetcode832flippinganimage.cpp(49): warning C4018: '<': signed/unsigned mismatch
-  LeetCode832FlippingAnImage.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode832FlippingAnImage.exe
+\\mac\home\documents\github\resume\4. lintcode\leetcode832flippinganimage\leetcode832flippinganimage.cpp(49): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode832flippinganimage\leetcode832flippinganimage.cpp(62): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode832flippinganimage\leetcode832flippinganimage.cpp(43): note: see declaration of 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode832flippinganimage\leetcode832flippinganimage.cpp(87): error C2079: 'question' uses undefined class 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode832flippinganimage\leetcode832flippinganimage.cpp(89): error C2079: 'question2' uses undefined class 'Solution'

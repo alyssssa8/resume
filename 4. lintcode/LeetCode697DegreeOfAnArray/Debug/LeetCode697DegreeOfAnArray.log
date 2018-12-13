@@ -1,5 +1,1 @@
-﻿  LeetCode697DegreeOfAnArray.cpp
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode697degreeofanarray\leetcode697degreeofanarray.cpp(54): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode697degreeofanarray\leetcode697degreeofanarray.cpp(81): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode697degreeofanarray\leetcode697degreeofanarray.cpp(110): warning C4018: '<': signed/unsigned mismatch
-  LeetCode697DegreeOfAnArray.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode697DegreeOfAnArray.exe
+﻿  LeetCode697DegreeOfAnArray.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode697DegreeOfAnArray.exe

@@ -9,6 +9,12 @@
  //Definition for a binary tree node.
 
 
+  //Definition for singly-linked list.
+ struct ListNode {
+     int val;
+     ListNode *next;
+     ListNode(int x) : val(x), next(NULL) {}
+ };
 
  //ListNode head6(1); //only a variable
 

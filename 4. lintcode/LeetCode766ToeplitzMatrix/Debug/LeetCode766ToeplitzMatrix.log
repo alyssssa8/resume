@@ -1,0 +1,5 @@
+﻿  LeetCode766ToeplitzMatrix.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode766toeplitzmatrix\leetcode766toeplitzmatrix.cpp(68): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode766toeplitzmatrix\leetcode766toeplitzmatrix.cpp(47): note: see declaration of 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode766toeplitzmatrix\leetcode766toeplitzmatrix.cpp(122): error C2079: 'question' uses undefined class 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode766toeplitzmatrix\leetcode766toeplitzmatrix.cpp(124): error C2079: 'question2' uses undefined class 'Solution'

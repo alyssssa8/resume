@@ -1,0 +1,4 @@
+﻿  LeetCode141LinkedListCycle.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode141linkedlistcycle\leetcode141linkedlistcycle.cpp(71): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode141linkedlistcycle\leetcode141linkedlistcycle.cpp(36): note: see declaration of 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode141linkedlistcycle\leetcode141linkedlistcycle.cpp(111): error C2079: 'question' uses undefined class 'Solution'

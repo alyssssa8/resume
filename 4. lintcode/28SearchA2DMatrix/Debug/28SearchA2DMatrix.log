@@ -1,2 +1,3 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(399,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build.
-  28SearchA2DMatrix.vcxproj -> C:\Users\Yu\Desktop\school\CS\lintcode\lintcode\Debug\28SearchA2DMatrix.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (28SearchA2DMatrix.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  128SearchA2DMaatrix.cpp
+  28SearchA2DMatrix.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\128SearchA2DMatrix.exe

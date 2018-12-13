@@ -1,3 +1,3 @@
 ﻿  LeetCode7ReverseInteger.cpp
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode7reverseinteger\leetcode7reverseinteger.cpp(65): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
-  LeetCode7ReverseInteger.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode7ReverseInteger.exe
+\\mac\home\documents\github\resume\4. lintcode\leetcode7reverseinteger\leetcode7reverseinteger.cpp(65): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  LeetCode7ReverseInteger.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode7ReverseInteger.exe

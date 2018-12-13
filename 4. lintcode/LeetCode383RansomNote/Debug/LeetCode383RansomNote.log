@@ -1,10 +1,1 @@
-﻿  LeetCode383RansomNote.cpp
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode383ransomnote\leetcode383ransomnote.cpp(34): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode383ransomnote\leetcode383ransomnote.cpp(37): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode383ransomnote\leetcode383ransomnote.cpp(53): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode383ransomnote\leetcode383ransomnote.cpp(70): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode383ransomnote\leetcode383ransomnote.cpp(73): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode383ransomnote\leetcode383ransomnote.cpp(88): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode383ransomnote\leetcode383ransomnote.cpp(93): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode383ransomnote\leetcode383ransomnote.cpp(98): warning C4018: '<': signed/unsigned mismatch
-  LeetCode383RansomNote.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode383RansomNote.exe
+﻿  LeetCode383RansomNote.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode383RansomNote.exe

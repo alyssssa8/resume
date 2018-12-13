@@ -58,6 +58,27 @@ public:
 	}
 };
 
+
+class Solution {
+public:
+    vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
+
+        for (int i = 0; i < A.size(); i++) {
+            int start = 0;
+            int end = A.size() - 1;
+            for (int j = 0; j < (A[0].size() + 1) / 2; j++) {
+                int temp = A[i][end] ^ 1;
+                A[i][end] = A[i][start] ^ 1;
+                A[i][start] = temp;
+                start++;
+                end--;
+            }
+
+        }
+        return A;
+    }
+};
+
 int main()
 {
 

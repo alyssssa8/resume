@@ -1,0 +1,6 @@
+﻿  LeetCode806NumberOfLinesToWriteString.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode806numberoflinestowritestring\leetcode806numberoflinestowritestring.cpp(21): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode806numberoflinestowritestring\leetcode806numberoflinestowritestring.cpp(47): error C2660: 'Solution::numberOfLines': function does not take 1 arguments
+  \\mac\home\documents\github\resume\4. lintcode\leetcode806numberoflinestowritestring\leetcode806numberoflinestowritestring.cpp(17): note: see declaration of 'Solution::numberOfLines'
+\\mac\home\documents\github\resume\4. lintcode\leetcode806numberoflinestowritestring\leetcode806numberoflinestowritestring.cpp(49): error C2660: 'Solution::numberOfLines': function does not take 1 arguments
+  \\mac\home\documents\github\resume\4. lintcode\leetcode806numberoflinestowritestring\leetcode806numberoflinestowritestring.cpp(17): note: see declaration of 'Solution::numberOfLines'

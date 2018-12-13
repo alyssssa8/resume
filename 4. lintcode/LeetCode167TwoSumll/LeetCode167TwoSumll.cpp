@@ -34,8 +34,6 @@ public:
 		map<int, int> myMap;
 		vector<int>ans;
 		for (int i = 0; i<numbers.size(); i++) {
-
-
 			if (myMap.find(target - numbers[i]) != myMap.end()) {
 				ans.push_back(myMap[target - numbers[i]]);
 				ans.push_back(i + 1);

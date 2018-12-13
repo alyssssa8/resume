@@ -1,0 +1,4 @@
+﻿  LeetCode167TwoSumll.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode167twosumll\leetcode167twosumll.cpp(36): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode167twosumll\leetcode167twosumll.cpp(224): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode167twosumll\leetcode167twosumll.cpp(31): note: see declaration of 'Solution'

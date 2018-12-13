@@ -1,15 +1,1 @@
-﻿  LeetCode849MaximizeDistanceToClosestPerson.cpp
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(53): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(55): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(78): error C2065: 'Solution': undeclared identifier
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(78): error C2146: syntax error: missing ';' before identifier 'question'
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(78): error C2065: 'question': undeclared identifier
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(79): error C2065: 'question': undeclared identifier
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(79): error C2228: left of '.maxDistToClosest' must have class/struct/union
-  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(79): note: type is 'unknown-type'
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(80): error C2065: 'Solution': undeclared identifier
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(80): error C2146: syntax error: missing ';' before identifier 'question2'
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(80): error C2065: 'question2': undeclared identifier
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(81): error C2065: 'question2': undeclared identifier
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(81): error C2228: left of '.maxDistToClosest' must have class/struct/union
-  c:\users\yu\desktop\study\mycode\4. lintcode\leetcode849maximizedistancetoclosestperson\leetcode849maximizedistancetoclosestperson.cpp(81): note: type is 'unknown-type'
+﻿  LeetCode849MaximizeDistanceToClosestPerson.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode849MaximizeDistanceToClosestPerson.exe

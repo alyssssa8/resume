@@ -1,2 +1,1 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(399,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build.
-  62SearchInRotatedSortedArray.vcxproj -> C:\Users\Yu\Desktop\school\CS\lintcode\lintcode\Debug\62SearchInRotatedSortedArray.exe
+﻿  62SearchInRotatedSortedArray.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\62SearchInRotatedSortedArray.exe

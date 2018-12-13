@@ -1,0 +1,6 @@
+﻿  LeetCode237DeleteNodeInALinkedList.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xhash(22): error C2143: syntax error: missing ';' before 'namespace'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xhash(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\mac\home\documents\github\resume\4. lintcode\leetcode237deletenodeinalinkedlist\leetcode237deletenodeinalinkedlist.cpp(61): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode237deletenodeinalinkedlist\leetcode237deletenodeinalinkedlist.cpp(55): note: see declaration of 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode237deletenodeinalinkedlist\leetcode237deletenodeinalinkedlist.cpp(92): error C2079: 'question' uses undefined class 'Solution'

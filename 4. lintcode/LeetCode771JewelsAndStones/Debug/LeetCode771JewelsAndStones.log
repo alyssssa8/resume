@@ -1,0 +1,2 @@
+﻿  LeetCode771JewelsAndStones.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode771jewelsandstones\leetcode771jewelsandstones.cpp(48): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?

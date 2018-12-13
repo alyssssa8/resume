@@ -25,7 +25,7 @@
 #include <vector>
 using namespace std;
 
-class Solution {
+class Solution3 {
 public:
 	void moveZeroes(vector<int>& nums) {
 
@@ -73,6 +73,9 @@ public:
 
 	}
 };
+
+
+
 int main()
 {
 

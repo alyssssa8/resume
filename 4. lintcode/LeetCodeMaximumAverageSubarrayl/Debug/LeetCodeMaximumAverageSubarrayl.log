@@ -1,9 +1,1 @@
-﻿  LeetCode643MaximumAverageSubarrayl.cpp
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcodemaximumaveragesubarrayl\leetcode643maximumaveragesubarrayl.cpp(34): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcodemaximumaveragesubarrayl\leetcode643maximumaveragesubarrayl.cpp(39): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcodemaximumaveragesubarrayl\leetcode643maximumaveragesubarrayl.cpp(42): warning C4552: '/': result of expression not used
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcodemaximumaveragesubarrayl\leetcode643maximumaveragesubarrayl.cpp(55): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcodemaximumaveragesubarrayl\leetcode643maximumaveragesubarrayl.cpp(60): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcodemaximumaveragesubarrayl\leetcode643maximumaveragesubarrayl.cpp(74): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcodemaximumaveragesubarrayl\leetcode643maximumaveragesubarrayl.cpp(95): warning C4018: '<': signed/unsigned mismatch
-  LeetCodeMaximumAverageSubarrayl.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode643MaximumAverageSubarrayl.exe
+﻿  LeetCodeMaximumAverageSubarrayl.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode643MaximumAverageSubarrayl.exe

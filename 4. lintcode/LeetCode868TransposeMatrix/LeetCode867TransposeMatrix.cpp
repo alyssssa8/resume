@@ -43,9 +43,7 @@ class Solution2 {
 public:
 	vector<vector<int>> transpose(vector<vector<int>>& A) {
 		vector<vector<int>> res(A[0].size(), vector<int>());
-		if (A.size() == 0) {
-			return res;
-		}
+	
 		for (int r = 0; r<A.size(); ++r)
 			for (int c = 0; c<A[0].size(); ++c)
 				res[c].push_back(A[r][c]);
@@ -57,9 +55,7 @@ class Solution {
 public:
 	vector<vector<int>> transpose(vector<vector<int>>& A) {
 		vector<vector<int>> ans(A[0].size(), vector<int>(A.size())); // this is not reorder the size of array, so could not use / or % to slove this problem. 
-		if (A.size() == 0) {
-			return ans;
-		}
+	
 		for (int i = 0; i < A.size(); i++) {
 			for (int j = 0; j < A[0].size(); j++) {
 				ans[j][i] = A[i][j];

@@ -1,4 +1,4 @@
 ﻿  LeetCode11ContainerWithMostWater.cpp
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode11containerwithmostwater\leetcode11containerwithmostwater.cpp(22): warning C4018: '<': signed/unsigned mismatch
-c:\users\yu\desktop\study\mycode\4. lintcode\leetcode11containerwithmostwater\leetcode11containerwithmostwater.cpp(23): warning C4018: '<': signed/unsigned mismatch
-  LeetCode11ContainerWithMostWater.vcxproj -> C:\Users\Yu\Desktop\Study\myCode\4. lintcode\Debug\LeetCode11ContainerWithMostWater.exe
+\\mac\home\documents\github\resume\4. lintcode\leetcode11containerwithmostwater\leetcode11containerwithmostwater.cpp(32): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode11containerwithmostwater\leetcode11containerwithmostwater.cpp(16): note: see declaration of 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode11containerwithmostwater\leetcode11containerwithmostwater.cpp(76): error C2079: 'question' uses undefined class 'Solution'

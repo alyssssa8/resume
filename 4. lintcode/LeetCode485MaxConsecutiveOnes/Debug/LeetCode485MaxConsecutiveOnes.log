@@ -1,0 +1,4 @@
+﻿  LeetCode485MaxConsecutiveOnes.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode485maxconsecutiveones\leetcode485maxconsecutiveones.cpp(45): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode485maxconsecutiveones\leetcode485maxconsecutiveones.cpp(26): note: see declaration of 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode485maxconsecutiveones\leetcode485maxconsecutiveones.cpp(65): error C2079: 'question' uses undefined class 'Solution'

@@ -1,0 +1,5 @@
+﻿  LeetCode242ValidAnagram.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode242validanagram\leetcode242validanagram.cpp(40): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode242validanagram\leetcode242validanagram.cpp(43): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode242validanagram\leetcode242validanagram.cpp(64): warning C4018: '<': signed/unsigned mismatch
+  LeetCode242ValidAnagram.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode242ValidAnagram.exe

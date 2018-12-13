@@ -1,0 +1,4 @@
+﻿  LeetCode441ArrangingCoins.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode441arrangingcoins\leetcode441arrangingcoins.cpp(98): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+\\mac\home\documents\github\resume\4. lintcode\leetcode441arrangingcoins\leetcode441arrangingcoins.cpp(109): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  LeetCode441ArrangingCoins.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode441ArrangingCoins.exe

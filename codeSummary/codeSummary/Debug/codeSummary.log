@@ -1,0 +1,13 @@
+﻿  codeSummary.cpp
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(28): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(50): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(55): warning C4018: '<': signed/unsigned mismatch
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(289): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(290): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(292): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(293): warning C4244: 'initializing': conversion from 'double' to 'short', possible loss of data
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(852): warning C4101: 'max': unreferenced local variable
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(794): warning C4101: 'myArray1': unreferenced local variable
+c:\users\yu\source\repos\codesummary\codesummary\codesummary.cpp(795): warning C4101: 'myArray2': unreferenced local variable
+  codeSummary.vcxproj -> C:\Users\yu\source\repos\codeSummary\Debug\codeSummary.exe

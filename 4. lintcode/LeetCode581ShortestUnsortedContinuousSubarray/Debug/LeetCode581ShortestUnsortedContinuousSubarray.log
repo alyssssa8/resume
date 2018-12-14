@@ -1,1 +1,4 @@
-﻿  LeetCode581ShortestUnsortedContinuousSubarray.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode581ShortestUnsortedContinuousSubarray.exe
+﻿  LeetCode581ShortestUnsortedContinuousSubarray.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode581shortestunsortedcontinuoussubarray\leetcode581shortestunsortedcontinuoussubarray.cpp(37): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode581shortestunsortedcontinuoussubarray\leetcode581shortestunsortedcontinuoussubarray.cpp(64): warning C4018: '<': signed/unsigned mismatch
+  LeetCode581ShortestUnsortedContinuousSubarray.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode581ShortestUnsortedContinuousSubarray.exe

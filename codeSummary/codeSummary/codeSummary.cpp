@@ -132,10 +132,7 @@ void demo()
     }
 
 
-    Static functions in a class: Just like the static data members or static variables inside the class, 
-    static member functions also does not depend on object of class. We are allowed to invoke a static member function using the object and the ‘.’ operator but it is recommended to invoke the static members using the class name and the scope resolution operator.
-    Static member functions are allowed to access only the static data members or other static member functions, 
-    they can not access the non-static data members or member functions of the class.
+   
 int main()
     {
         for (int i=0; i<5; i++)
@@ -151,11 +148,7 @@ int main()
 
 /*
 
-Static Variables : Variables in a function, Variables in a class
-Static Members of Class : Class objects and Functions in a class
-Static variables in a class: As the variables declared as static are initialized only once as they are allocated space in separate static storage so, 
-the static variables in a class are shared by the objects. There can not be multiple copies of same static variables for different objects. 
-Also because of this reason static variables can not be initialized using constructors.
+
 
 */
 
@@ -268,15 +261,7 @@ public:
 
 int main()
 {/*
-    // vector
-    //Vectors are sequence containers representing arrays that can change in size.
-    // It is a dynamically allocated array of elements.
-
-    Just like arrays, vectors use <contiguous storage locations > for their elements, 
-    which means that their elements can also be accessed using <offsets> on regular pointers to its elements, 
-    and just as efficiently as in arrays. But unlike arrays, their <size can change dynamically>, with their 
-    storage being handled automatically by the container.
-
+   
 
     */
 
@@ -317,21 +302,8 @@ int main()
 
     
     
-    //stod: Parses str interpreting its content as a floating-point number, which is returned as a value of type double.
-   //stoi: Parses str interpreting its content as an integral number of the specified base, which is returned as an int value.
-
-    /*
-        bool, char, unsigned char, signed char,             __int8	                             1 byte
-        short, unsigned short,                              __int16,  wchar_t, __wchar_t	     2 bytes
-        float, int, unsigned int, long, unsigned long       __int32, 	                         4 bytes
-        double, long double, long long	                    __int64,                             8 bytes
-
-
-        
-down vote
-accepted
-Huge difference.
-
+   
+/*
 As the name implies, a double has 2x the precision of float[1].
 In general a double has <15 decimal digits> of precision, while float <has 7>.
      */
@@ -399,23 +371,6 @@ In general a double has <15 decimal digits> of precision, while float <has 7>.
     cout << i++ << endl << endl;;
     int k = 0;
     cout << ++k << endl;
-
-    //pointer reference
-    //__________________________________________________________________________
-
-/*
-A pointer can be re-assigned while reference cannot, and must be assigned at initialization only.
-Pointer can be assigned NULL directly, whereas reference cannot.
-Pointers can iterate over an array, we can use ++ to go to the next item that a pointer is pointing to.
-A pointer is a variable that holds a memory address. A reference has the same memory address as the item it references.
-A pointer to a class/struct uses ‘->'(arrow operator) to access it’s members whereas a reference uses a ‘.'(dot operator)
-A pointer needs to be dereferenced with * to access the memory location it points to, whereas a reference can be used directly.
-    References are usually preferred over pointers whenever we don’t need “reseating”.
-
-        Overall, Use references when you can, and pointers when you have to.But if we want to write C code that compiles with both C 
-        and a C++ compiler, you’ll have to restrict yourself to using pointers.
-*/
-
 
 //__________________________________________________________________________
 
@@ -609,74 +564,6 @@ A pointer needs to be dereferenced with * to access the memory location it point
   
 
 
-    //.at
-
-
-    //.begin
-    //.clear
-    //.count
-    //.empty
-    //.end
-    //.erase
-    //.find
-    //.insert
-    //.size
-    //.swap
-
-/*
-                     | map |          unordered_map
-        -------------------------------------------------------- -
-        Ordering       | increasing  order     | no ordering
-                       | (by default)          |
-
-        Implementation | Self balancing BST    | Hash Table
-                       | <like Red - Black Tree> |
-
-        search time    | log(n)                | O(1)->Average
-                                               | O(n)->Worst Case
-
-        Insertion time | log(n) + Rebalance    | Same as search
-
-        Deletion time  | log(n) + Rebalance    | Same as search
-        
-        
-   STL Map Internal Implementation :
-    It’s implemented as a self - balancing red - black tree.Probably the two most common self balancing trees are 
-    red - black tree and AVL trees.To balance the tree after an insertion / update both algorithms use the notion 
-    of rotations where the nodes of the tree are rotated to perform the re - balancing. While in both algorithms 
-    the insert / delete operations are O(log n), in the case of Red - Black tree re - balancing rotation is an O(1) 
-    operation while with AVL this is a O(log n) operation, making the RB tree more efficient in this aspect of the re 
-    - balancing sage and one of the possible reasons that is more commonly used.
-    //___________________________________________________
-
-   Differences between hash table and STL map
-    Null Keys : STL Map allows one null key and multiple null values whereas hash table doesn’t allow any null key or value.
-    Thread synchronization : Map is generally preferred over hash table if thread synchronization is not needed.Hash table is synchronized.
-    Thread safe : STL Maps are not thread safe whereas Hashmaps are thread safe and can be shared with many threads.
-    Value Order : In STL map, values are stored in sorted order whereas in hash table values are not stored in sorted order
-    Searching Time : You can use STL Map or binary tree for smaller data(Although it takes O(log n) time, the number of inputs may be small enough 
-    to make this time negligible) and for large amount of data, hash table is preferred.
-    
-  */
-
-
-//___________________________________________________
-// set
-   /* Set
-        Sets are containers that store <unique elements> following a <specific order>.
-
-        In a set, the value of an element also identifies it(the value is itself the key, of type T), and each value must be unique.
-        The value of the elements in a set cannot be modified once in the container(the elements are always const), 
-        but they can be inserted or removed from the container.
-
-        Internally, the elements in a set are always sorted following a specific strict weak ordering criterion indicated by 
-        its internal comparison object(of type Compare).
-
-        set containers are generally <slower than unordered_set containers> to access <individual elements> by their key, 
-        but they allow the direct iteration on subsets based on their order.
-
-        Sets are typically implemented as <binary search trees>.*/
-
    std::set<int> myset2;
     std::set<int>::iterator it2;
 
@@ -700,147 +587,10 @@ A pointer needs to be dereferenced with * to access the memory location it point
         std::cout << ' ' << *it2;
     std::cout << '\n';
 
-    //.begin
-    //.clear
-    //.count
-    //.empty
-    //.end
-    //.erase
-    //.find
-    //.insert
-    //.size
-    //.swap
+
    
    
 
-//___________________________________________________
-// deque
-    //.back
-    //.begin
-    //.end
-    //.front
-    //.pop_back
-    //.pop_front
-    //.clear
-    //.empty
-    //.erase
-    //.insert 
-    //.size
-    //.swap
-
-
-
-//___________________________________________________
-// queue
-   /* FIFO queue
-        queues are a type of container adaptor, specifically designed to operate in a FIFO context(first - in first - out), 
-        where elements are inserted into one end of the container and extracted from the other.
-
-        queues are implemented as containers adaptors, which are classes that use an encapsulated object of a specific container class
-        as its underlying container, providing a specific set of member functions to access its elements.Elements are <pushed into the 
-        "back" >of the specific container and <popped from its "front">.
-
-        The underlying container may be one of the standard container class template or some other specifically 
-        designed container class.This underlying container shall support at least the following operations :
-   
-   //.push_back
-    //.front
-    //.pop_front
-    //.back
-    
-    //.empty
-    //.size
-
-
-    Double ended queue
-deque (usually pronounced like "deck") is an irregular acronym of double-ended queue. Double-ended queues are sequence containers 
-with dynamic sizes that can be expanded or contracted on both ends (either its front or its back).
-
-Specific libraries may implement deques in different ways, generally as some form of dynamic array. But in any case, they allow for the individual elements to be accessed directly through random access iterators, with storage handled automatically by expanding and contracting the container as needed.
-    */
-//___________________________________________________
-// stack
-
-    //LIFO stack
-     //Stacks are a type of container adaptor, specifically designed to operate in a 
-    //LIFO context(last - in first - out), where elements are inserted and extracted only 
-    //from one end of the container.
-    /*
-    stacks are implemented as containers adaptors, which are classes that use an encapsulated 
-    object of a specific container class as its underlying container, providing a specific set 
-    of member functions to access its elements. Elements are pushed/popped from the "back" of 
-    the specific container, which is known as the top of the stack.
-
-    */
-    //.pop
-    //.top
-    //.push
-
-     //.empty
-    //.size
-    //.swap
-
-    //back
-    //push_back
-    //pop_back
-//___________________________________________________
-// hash table
-   /* Values are <not stored in sorted order>
-    Additionally, since hash tables <use the key to find the index that will store the value>, 
-    an insert or lookup can be done in amortised O(1) time(assuming few collisions in the hash table).
-    In a hash table, one must also handle <potential collisions>.This is often done <by chaining>, 
-    which means to create a linked list of all the values whose keys map to a particular index.
-
-    //Implementation of Hash Table : A hash table is traditionally <implemented with an array of linked lists>.
-    //When we want to insert a key / Value pair, we map the <key to an index> in the array using the hash function.
-    //The <value> is then inserted into the <linked list at that position>.
-    
-
-    //___________________________________________________
-
-                    
-                         | map |                 unordered_map
-        -------------------------------------------------------- -
-              Ordering | increasing  order     |  no ordering
-                       | (by default)          |
-
-        Implementation | Self balancing BST    | Hash Table
-                       | like Red - Black Tree |
-
-           search time |  log(n)               | O(1)->Average
-                                               | O(n)->Worst Case
-
-        Insertion time | log(n) + Rebalance    | Same as search
-
-         Deletion time | log(n) + Rebalance    | Same as search
-         
-
-   STL Map Internal Implementation :
-    It’s implemented as a self - balancing red - black tree.Probably the two most common self balancing trees are 
-    red - black tree and AVL trees.To balance the tree after an insertion / update both algorithms use the notion 
-    of rotations where the nodes of the tree are rotated to perform the re - balancing. While in both algorithms 
-    the insert / delete operations are O(log n), in the case of Red - Black tree re - balancing rotation is an O(1) 
-    operation while with AVL this is a O(log n) operation, making the RB tree more efficient in this aspect of the re 
-    - balancing sage and one of the possible reasons that is more commonly used.
-    //___________________________________________________
-
-   Differences between hash table and STL map
-    Null Keys : STL Map allows one <null key> and <multiple null values >  whereas hash table <doesn’t allow any null key or value>.
-    Thread synchronization : Map is generally <preferred >over hash table <if thread synchronization is not needed>.Hash table is <synchronized>.
-    Thread safe : STL Maps are <not thread safe> whereas Hashmaps are <thread safe> and can be <shared with many threads>.
-    Value Order : In STL map, values are stored in <sorted order> whereas in hash table values are <not stored in sorted order>
-    Searching Time : You can use STL Map or binary tree for smaller data(Although it takes <O(log n) time>, the number of inputs may be small enough 
-    to make this time negligible) and for <large amount of data, hash table is preferred.>
-    
-
-     
-    //___________________________________________________
-    //array
-    An array is a series of elements of the <same type> placed in <contiguous memory locations> that can be individually referenced by adding an
-    index to a <unique identifier>.That means that, for example, five values of type int can be declared as an array without having to declare 
-    5 different variables(each with its own identifier). Instead, using an array, the five int values are stored in contiguous memory locations,
-    and all five can be accessed using the <same identifier, with the proper index.>
-    */
     //int mySize = 5;
     double* p1 = new double[mySize]{}; // initialise to all zeroes
     double* p2 = new double[5]{ 1.7, 0.4, 6.2, -9.3, 8.4 }; // initialise with braced-init-list
@@ -855,17 +605,6 @@ Specific libraries may implement deques in different ways, generally as some for
     delete[] p1;
     delete[] p2; 
 
-//___________________________________________________
-//virtual
-//Virtual members/virtual function/ virtual method
-//A virtual member is a member function that can be redefined in a derived class,
-
-//The member function area has been declared as virtual in the base class because it is later redefined 
-//in each of the derived classes.Non - virtual members can also be redefined in derived classes, 
-//non - virtual members of derived classes cannot be accessed through a reference of the base class 
-//    : i.e., if virtual is removed from the declaration of area in the example above, 
-//    all three calls to area would return zero, because in all cases, the version of the base class would 
-//    have been called instead.
 
 
 //if no virtual in the parent class, the A *b will use the A constructor. 
@@ -928,10 +667,7 @@ Specific libraries may implement deques in different ways, generally as some for
         //c->Print(); //without virtual: Hello A // if with Virtual, will be A
         //d->Print(); //without virtual: Hello A // if with Virtual, will be D
 
-//Pure virtual: also called abstract class. Pure virtual cannot new object.
-//Son must define a virtual function.
-//Why use pure virtual ?
-//<To be sure the subclass implements>
+
        
 
 

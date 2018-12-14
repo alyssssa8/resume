@@ -1,4 +1,4 @@
 ﻿  LeetCode300LongestIncreasingSubsequence.cpp
 \\mac\home\documents\github\resume\4. lintcode\leetcode300longestincreasingsubsequence\leetcode300longestincreasingsubsequence.cpp(21): warning C4018: '<': signed/unsigned mismatch
 \\mac\home\documents\github\resume\4. lintcode\leetcode300longestincreasingsubsequence\leetcode300longestincreasingsubsequence.cpp(38): warning C4018: '<': signed/unsigned mismatch
-  LeetCode300LongestIncreasingSubsequence.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode300LongestIncreasingSubsequence.exe
+\\mac\home\documents\github\resume\4. lintcode\leetcode300longestincreasingsubsequence\leetcode300longestincreasingsubsequence.cpp(70): error C2065: 'kjm': undeclared identifier

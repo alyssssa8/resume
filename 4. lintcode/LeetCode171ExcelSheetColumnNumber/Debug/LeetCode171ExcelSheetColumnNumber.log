@@ -1,1 +1,4 @@
-﻿  LeetCode171ExcelSheetColumnNumber.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode171ExcelSheetColumnNumber.exe
+﻿  LeetCode171ExcelSheetColumnNumber.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode171excelsheetcolumnnumber\leetcode171excelsheetcolumnnumber.cpp(57): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode171excelsheetcolumnnumber\leetcode171excelsheetcolumnnumber.cpp(69): warning C4018: '<': signed/unsigned mismatch
+  LeetCode171ExcelSheetColumnNumber.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode171ExcelSheetColumnNumber.exe

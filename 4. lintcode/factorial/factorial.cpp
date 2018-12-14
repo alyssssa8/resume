@@ -1,5 +1,5 @@
 
-//factorial 5 = 5 * factorial(5-1)
+
 #include <iostream>
 #include <math.h>
 #include <algorithm>
@@ -13,6 +13,15 @@
 #include <vector>
 using namespace std;
 
+
+
+//1*2*3*4*5 = 120
+//factorial 5 = 5 * factorial(5-1) = 120
+//factorial 4 = 4 * factorial(4-1) = 24
+//factorial 3 = 3 * factorial(3-1) = 6
+//factorial 2 = 2 * factorial(2-1) = 2
+//factorial 1 = 5 * factorial(1-1) = 1
+// factorial(0) = 1
 
 class Solution {
 public:

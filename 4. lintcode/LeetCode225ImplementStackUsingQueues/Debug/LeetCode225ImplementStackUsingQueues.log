@@ -1,1 +1,3 @@
-﻿  LeetCode225ImplementStackUsingQueues.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode225ImplementStackUsingQueues.exe
+﻿  LeetCode225ImplementStackUsingQueuesv.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode225implementstackusingqueues\leetcode225implementstackusingqueuesv.cpp(49): warning C4018: '<': signed/unsigned mismatch
+  LeetCode225ImplementStackUsingQueues.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode225ImplementStackUsingQueues.exe

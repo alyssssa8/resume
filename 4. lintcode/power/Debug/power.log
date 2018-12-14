@@ -1,3 +1,2 @@
 ﻿  power.cpp
-\\mac\home\documents\github\resume\4. lintcode\power\power.cpp(33): error C2660: 'Solution::Power': function does not take 1 arguments
-  \\mac\home\documents\github\resume\4. lintcode\power\power.cpp(17): note: see declaration of 'Solution::Power'
+  power.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\power.exe

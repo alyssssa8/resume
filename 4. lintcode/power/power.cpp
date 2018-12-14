@@ -11,7 +11,7 @@
 #include <vector>
 using namespace std;
 
-
+// 5^3 = 5*5^2 =25*5^1
 class Solution {
 public:
 	int Power(int base, int exponent)
@@ -30,7 +30,7 @@ int main()
 
 	vector<int>nums({ 3, 1 ,0 });
 	Solution question;
-	question.Power(5);
+	question.Power(5, 2);
 
 
 	return 0;

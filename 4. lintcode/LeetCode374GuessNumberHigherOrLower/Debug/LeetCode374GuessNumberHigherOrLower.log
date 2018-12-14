@@ -1,2 +1,3 @@
-﻿LeetCode374GuessNumberHigherOrLower.obj : error LNK2019: unresolved external symbol "int __cdecl guess(int)" (?guess@@YAHH@Z) referenced in function "public: int __thiscall Solution::guessNumber(int)" (?guessNumber@Solution@@QAEHH@Z)
+﻿  LeetCode374GuessNumberHigherOrLower.cpp
+LeetCode374GuessNumberHigherOrLower.obj : error LNK2019: unresolved external symbol "int __cdecl guess(int)" (?guess@@YAHH@Z) referenced in function "public: int __thiscall Solution::guessNumber(int)" (?guessNumber@Solution@@QAEHH@Z)
 \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode374GuessNumberHigherOrLower.exe : fatal error LNK1120: 1 unresolved externals

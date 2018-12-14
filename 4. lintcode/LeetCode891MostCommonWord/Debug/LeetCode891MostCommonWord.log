@@ -1,0 +1,6 @@
+﻿  LeetCode891MostCommonWord.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode891mostcommonword\leetcode891mostcommonword.cpp(18): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode891mostcommonword\leetcode891mostcommonword.cpp(20): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode891mostcommonword\leetcode891mostcommonword.cpp(23): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode891mostcommonword\leetcode891mostcommonword.cpp(54): warning C4101: 'question2': unreferenced local variable
+  LeetCode891MostCommonWord.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode891MostCommonWord.exe

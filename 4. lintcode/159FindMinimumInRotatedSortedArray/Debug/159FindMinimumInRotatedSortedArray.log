@@ -1,1 +1,3 @@
-﻿  159FindMinimumInRotatedSortedArray.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\159FindMinimumInRotatedSortedArray.exe
+﻿  159FindMinimumInRotatedSortedArray.cpp
+\\mac\home\documents\github\resume\4. lintcode\159findminimuminrotatedsortedarray\159findminimuminrotatedsortedarray.cpp(42): warning C4715: 'test::findMin': not all control paths return a value
+  159FindMinimumInRotatedSortedArray.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\159FindMinimumInRotatedSortedArray.exe

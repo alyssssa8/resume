@@ -1,0 +1,6 @@
+﻿  LeetCosde821ShortestDistanceToACharacter.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcosde821shortestdistancetoacharacter\leetcosde821shortestdistancetoacharacter.cpp(22): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcosde821shortestdistancetoacharacter\leetcosde821shortestdistancetoacharacter.cpp(27): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcosde821shortestdistancetoacharacter\leetcosde821shortestdistancetoacharacter.cpp(28): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcosde821shortestdistancetoacharacter\leetcosde821shortestdistancetoacharacter.cpp(64): warning C4018: '<=': signed/unsigned mismatch
+  LeetCosde821ShortestDistanceToACharacter.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCosde821ShortestDistanceToACharacter.exe

@@ -1,1 +1,4 @@
-﻿  LeetCode205IsomorphicStrings.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode205IsomorphicStrings.exe
+﻿  LeetCode205IsomorphicStrings.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode205isomorphicstrings\leetcode205isomorphicstrings.cpp(45): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode205isomorphicstrings\leetcode205isomorphicstrings.cpp(71): warning C4101: 'test4': unreferenced local variable
+  LeetCode205IsomorphicStrings.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode205IsomorphicStrings.exe

@@ -44,8 +44,9 @@ public:
 		int sum = 0;
 		if (root->left && !root->left->left && !root->left->right) {
 			sum = root->left->val;
+            cout << "sum: "<<sum << endl;
 		}
-
+        //cout << "**sum: " << sum<<"  sum + sumOfLeftLeaves(root->left)"<< sumOfLeftLeaves(root->left)<<"  sum + sumOfLeftLeaves(root->left) + sumOfLeftLeaves(root->right)"<< sumOfLeftLeaves(root->right) << endl;
 		return sum + sumOfLeftLeaves(root->left) + sumOfLeftLeaves(root->right);
 
 	}
@@ -79,12 +80,12 @@ int main()
 {
 
 
-	TreeNode tree1(1);
-	TreeNode tree2(2);
-	TreeNode tree3(3);
+	TreeNode tree1(3);
+	TreeNode tree2(9);
+	TreeNode tree3(20);
 	TreeNode tree4(4);
 	TreeNode tree5(5);
-	TreeNode tree6(6);
+	TreeNode tree6(15);
 	TreeNode tree7(7);
 
 	TreeNode tree10(1);
@@ -98,8 +99,8 @@ int main()
 
 	tree1.left = &tree2; // & to get the address of something
 	tree1.right = &tree3;
-	tree2.left = &tree4; // & to get the address of something
-	tree2.right = &tree5;
+	//tree2.left = &tree4; // & to get the address of something
+	//tree2.right = &tree5;
 	tree3.left = &tree6; // & to get the address of something
 	tree3.right = &tree7;
 

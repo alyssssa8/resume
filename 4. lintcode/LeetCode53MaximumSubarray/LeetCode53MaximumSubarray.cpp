@@ -27,21 +27,34 @@ public:
         {
             myVector[i] = max(nums[i] + myVector[i - 1], nums[i]);
             ans = max(ans, myVector[i]);
-
         }
-
         return ans;
     }
 };
 
+class Solution2 {
+public:
+    int maxSubArray(vector<int>& nums) {
+        int sum = 0;
+        int ans = nums[0];
+        for (int i = 0; i < nums.size(); i++)
+        {
+            sum += nums[i];
+            ans = max(ans, sum);
+            sum = max(sum, 0);
+              
+        }
+        return ans;
+    }
+};
 int main()
 {
 
-    vector<int>nums({ -1, -2});
+    vector<int>nums({ -2,1,-3,4,-1,2,1,-5,4});
     Solution question;
-    question.maxSubArray(nums);
-    Solution question2;
-    question2.maxSubArray(nums);
+    cout << question.maxSubArray(nums) << endl;;
+    Solution2 question2;
+    cout << question2.maxSubArray(nums) << endl;;
 
     return 0;
 }

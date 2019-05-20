@@ -12,7 +12,6 @@
 #include <vector>
 using namespace std;
 
-
 class Solution {
 public:
     bool judgeCircle(string moves) {
@@ -37,7 +36,7 @@ bool judgeCircle(string moves) {
     }
     return x == 0 && y == 0;
 }
-class Solution {
+class Solution2 {
 public:
     bool judgeCircle(string moves) {
         int v = 0;
@@ -56,12 +55,12 @@ public:
 
 int main()
 {
-
+    string nums = "UD";
     vector<int>nums({ 3, 1 ,0 });
     Solution question;
     question.judgeCircle(nums);
     Solution2 question2;
-    question2.sortedArrayToBST(nums);
+    question2.judgeCircle(nums);
 
     return 0;
 }

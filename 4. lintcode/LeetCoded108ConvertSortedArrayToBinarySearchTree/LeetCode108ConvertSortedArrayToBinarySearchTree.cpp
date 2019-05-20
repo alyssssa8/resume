@@ -154,6 +154,8 @@ public:
 };
 int main()
 {
+    int a = 'a';
+    cout << a << endl;
 	vector<int> nums{ -10,-3,0,5,9 };
 	Solution question;	
 	question.sortedArrayToBST(nums);

@@ -74,12 +74,52 @@ public:
 
 };
 
+
+
+class Solution5 {
+public:
+    int climbStairs(int n) {
+
+        vector<int>memo(n + 1, 0);
+        return climb_Stairs(0, n, memo);
+    }
+    int climb_Stairs(int i, int n, vector<int>& memo) {
+        if (i > n) {
+            return 0;
+        }
+        if (i == n) {
+            return 1;
+        }
+        if (memo[i] > 0) {
+            return memo[i];
+        }
+        memo[i] = climb_Stairs(i + 1, n, memo) + climb_Stairs(i + 2, n, memo);
+        return memo[i];
+    }
+
+};
+
+class Solution4 {
+public:
+    int climbStairs(int n)
+    {
+        vector<int> steps(n, 0);
+        steps[0] = 1;
+        steps[1] = 2;
+        for (int i = 2; i < n; i++)
+        {
+            steps[i] = steps[i - 2] + steps[i - 1];
+        }
+        return steps[n - 1];
+    }
+};
+
 class Solution {
 private:
 	vector<int>f;
 public:
 	int climbStairs(int n) {
-		f = vector<int>(n + 1, 0);
+		f = vector<int>(n + 1, 0); //need one more size
 		return numOfSolutions(n);
 
 	}
@@ -88,6 +128,16 @@ public:
 		if (n <= 1) {
 			return 1;
 		};
+
+        //same as above!
+       /* if (n == 1) {
+            return 1;
+        };
+        if (n == 2) {
+            return 2;
+        }
+*/
+
 		if (f[n]>0) {
 			
 			return f[n]; //pay attention on this one, when there already have value, they just use the value. 

@@ -34,6 +34,8 @@ struct ListNode {
 	ListNode(int x) : val(x), next(NULL) {}
 };
 
+
+//use this one 
 class Solution6 {
 public:
 	ListNode * reverseList(ListNode* head) {

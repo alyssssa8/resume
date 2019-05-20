@@ -1,4 +1,9 @@
 ﻿
+
+//chatAt():Return the first character of a string:
+//indexOf(): method returns the position of the first occurrence of a specified value in a string.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #include <iostream>
 #include <math.h>
 #include <algorithm>
@@ -16,9 +21,23 @@
 #include <fstream>      // std::ofstream
 #define mySize 5
 using namespace std;
-
-
+//bit operation
+//11 = decial 3
+//11 << 1 = 110. = decimal 6  //add a 0 at the end;
+//110 << 1 = 1100 = decimal 12
+//5 << 1
+//5 = binary 101
+//101 << 2 = 1010 = decimal 10
+//十进制一个数末尾加一个0是10倍 二进制一个数末尾加一个0是2倍
+//
 //const int mySize = 5;
+//smart pointer
+
+//can not copy the unique pointer, will freeze, after delete on pointer. 
+//unique_ptr: unique_ptr<Entity>entity(new Entity())  unique_ptr<Entity>entity = make_unique<Entity>()
+//shared_ptr:  shared_ptr<Entity>sharedEntity = make_shared<Entity>()
+//weak_ptr
+
 //beats 100%
 class Solution2 {
 public:
@@ -395,6 +414,9 @@ In general a double has <15 decimal digits> of precision, while float <has 7>.
     vector<int> myVector3({ 1,2,3 });//{1,2,3}
 
     vector<vector<int>> myVector4({ {1,2,3}, {4,5,6} });
+
+    vector<int> ans;
+    ans = vector<int>(5, 0);
 
 
     //myVector4[0]: {1,2,3}

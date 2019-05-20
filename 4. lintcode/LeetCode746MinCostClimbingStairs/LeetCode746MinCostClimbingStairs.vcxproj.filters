@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LeetCode764MinCostClimbingStairs.cpp">
+    <ClCompile Include="LeetCode746MinCostClimbingStairs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

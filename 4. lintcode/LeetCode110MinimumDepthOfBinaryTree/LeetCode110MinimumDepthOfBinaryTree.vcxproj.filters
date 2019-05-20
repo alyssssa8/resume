@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LeetCode110MinimumDepthOfBinaryTree.cpp">
+    <ClCompile Include="LeetCode111MinimumDepthOfBinaryTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

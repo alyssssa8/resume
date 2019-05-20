@@ -40,7 +40,7 @@ public:
 	ListNode * mergeTwoLists(ListNode* l1, ListNode* l2) {
 
 
-		ListNode dummy(0);
+		ListNode dummy(0);// it is a not, tail is a pointer, need to distingush this two 
 		ListNode* tail = &dummy; // do not know which one the ha
 		while (l1 && l2) {
 			if (l1->val < l2->val) {
@@ -101,8 +101,8 @@ int main()
 	//Solution question;
 	//question.mergeTwoLists(head , head);
 
-	//Solution2 question2;
-	//question2.mergeTwoLists(head, head);
+	Solution2 question2;
+	question2.mergeTwoLists(head, head);
 
 	
 	return 0;

@@ -43,6 +43,10 @@ public:
         for (auto i : n->children) {
             traversal(i, res);
         }
+        /*for (int i = 0; i < n->children.size(); i++) {
+            traversal(n->children[i], res);
+        }*/
+
         res.push_back(n->val);
     }
 };

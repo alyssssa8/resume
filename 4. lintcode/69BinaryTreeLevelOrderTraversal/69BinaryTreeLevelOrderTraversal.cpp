@@ -85,7 +85,7 @@ public:
 		{
 			return;
 		}
-		while (ans.size() <= level)
+		while (ans.size() <= level)  //could use if here
 		{
 			ans.push_back({});
 		}

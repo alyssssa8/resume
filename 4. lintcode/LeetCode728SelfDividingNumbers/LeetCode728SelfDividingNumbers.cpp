@@ -25,7 +25,7 @@ public:
                 if (i % (temp % 10) != 0) {
                     break;  // 13 %(13 % 10) 13 % 3 // when the number could not divid by itself, have reminder
                 }
-                temp = temp / 10; // 128 / 10 = 12; 12/10 = 1 ; 1/10 = 0 use this one to get the reminder
+                temp = temp / 10; // 328 / 10 = 12; 32/10 = 1 ; 3/10 = 0 use this one to get the reminder
             }
 
             if (!temp) { // 1%1  reminder is 0, will be alway 0 if it could divide itself

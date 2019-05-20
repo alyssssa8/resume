@@ -68,6 +68,35 @@ public:
 	}
 };
 
+//own writting
+class Solution3 {
+public:
+    bool isSymmetric(TreeNode* root) {
+        return dfs(root, root);
+
+    }
+
+    int dfs(TreeNode* root1, TreeNode* root2) {
+        if (root1 == NULL && root2 != NULL) {
+            return 0;
+        }
+        if (root2 == NULL && root1 != NULL) {
+            return 0;
+        }
+        if (root1 == NULL && root2 == NULL) {
+            return 1;
+        }
+        if (root1->val != root2->val) {
+            return 0;
+        }
+        int left = dfs(root1->left, root2->right);
+        int right = dfs(root1->right, root2->left);
+        if (left == 0 || right == 0) {
+            return 0;
+        }
+        return 1;
+    }
+};
 class Solution {
 public:
 	bool isSymmetric(TreeNode* root) {

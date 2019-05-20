@@ -1,0 +1,7 @@
+﻿  blizzardCarYouSort.cpp
+\\mac\home\documents\github\resume\4. lintcode\blizzardcaryousort\blizzardcaryousort.cpp(22): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\blizzardcaryousort\blizzardcaryousort.cpp(55): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\blizzardcaryousort\blizzardcaryousort.cpp(86): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\blizzardcaryousort\blizzardcaryousort.cpp(94): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\blizzardcaryousort\blizzardcaryousort.cpp(95): warning C4018: '<': signed/unsigned mismatch
+  blizzardCarYouSort.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\blizzardCarYouSort.exe

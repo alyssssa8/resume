@@ -22,14 +22,11 @@
 
 
 #include <iostream>
-#include <math.h>
-#include <algorithm> 
+
+
 #include<vector>
 #include<string>
-#include <queue>
-#include <stack>
-#include <list>
-#include <map>   //hash table
+
 using namespace std;
 
 
@@ -46,6 +43,7 @@ private:
 	vector<vector<string>>ans;
 	vector<string>tempString;
 public:
+   
 	vector<vector<string>> partition(string s) {
 		if (s.size() == 0)
 		{
@@ -99,7 +97,6 @@ public:
 
 int main()
 {
-
     string s = "aab";
     partition(s);
 	Solution question;
@@ -124,38 +121,36 @@ void dfs(int depth, string s) { // depth start at 0 and increase 1 each time.
 
     if (depth == s.size())
     {
-		vector<string>::iterator iter;
-		cout << endl;
-		cout << "v1: " << endl;
-		for (iter = v1.begin(); iter != v1.end(); iter++) {
+		                vector<string>::iterator iter;
+		                cout << endl;
+		                cout << "v1: " << endl;
+		                for (iter = v1.begin(); iter != v1.end(); iter++) {
 
-			cout << *iter << ",  ";
-		}
-		cout << endl<<endl;
+			                cout << *iter << ",  ";
+		                }
+		                cout << endl<<endl;
 
 
         v.push_back(v1);
 		
     }
 	cout << "depth:" << depth << endl;
-
-
     if (depth<s.size())
     {
         for (int i = depth; i<s.size(); i++)
         {
             //to check if the substring is a parlindrome
-			cout << "i: " << i << "   depth: " << depth << "   i - depth + 1: "<< i - depth + 1 << endl;
-			cout << "check if it is hui: " << s.substr(depth, i - depth + 1) << endl;
-			//substr(1,2)  //1: from here, 2:count the number of letters
-			vector<string>::iterator iter;
-			cout << endl;
-			cout << "v1: " << endl;
-			for (iter = v1.begin(); iter != v1.end(); iter++) {
+			                    cout << "i: " << i << "   depth: " << depth << "   i - depth + 1: "<< i - depth + 1 << endl;
+			                    cout << "check if it is hui: " << s.substr(depth, i - depth + 1) << endl;
+			                    //substr(1,2)  //1: from here, 2:count the number of letters
+			                    vector<string>::iterator iter;
+			                    cout << endl;
+			                    cout << "v1: " << endl;
+			                    for (iter = v1.begin(); iter != v1.end(); iter++) {
 
-				cout << *iter << ",  ";
-			}
-			cout << endl << endl;
+				                    cout << *iter << ",  ";
+			                    }
+			                    cout << endl << endl;
 
 
 
@@ -165,8 +160,8 @@ void dfs(int depth, string s) { // depth start at 0 and increase 1 each time.
                 v1.push_back(s.substr(depth, i - depth + 1));  //+1 is the first index char
                 
                 dfs(i + 1, s);
-				string popValue = v1.back();
-                cout<<"v1.pop_back():" <<popValue <<endl;
+				                string popValue = v1.back();
+                                 cout<<"v1.pop_back():" <<popValue <<endl;
 				v1.pop_back();
             }
         }

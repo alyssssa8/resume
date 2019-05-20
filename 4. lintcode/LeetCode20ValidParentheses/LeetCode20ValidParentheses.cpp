@@ -39,7 +39,40 @@ public:
         return myStack.empty();
     }
 };
+class Solution {
+public:
+    bool isValid(string s) {
+        stack<char>myStack;
+        for (int i = 0; i < s.size(); i++) {
+            if (s[i] == '[' || s[i] == '{' || s[i] == '(') {
+                myStack.push(s[i]);
+            }
+            else if (myStack.empty() == true) {
+                return false;
+            }
+            else if (myStack.empty() == false) {
+                if (s[i] == '}') {
+                    if (myStack.top() != '{') {
+                        return false;
+                    }
+                }
+                if (s[i] == ')') {
+                    if (myStack.top() != '(') {
+                        return false;
+                    }
+                }
+                if (s[i] == ']') {
+                    if (myStack.top() != '[') {
+                        return false;
+                    }
+                }
+                myStack.pop();
+            }
 
+        }
+        return myStack.empty();
+    }
+};
 
 int main()
 {

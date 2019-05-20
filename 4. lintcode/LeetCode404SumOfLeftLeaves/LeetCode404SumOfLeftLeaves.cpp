@@ -42,7 +42,7 @@ public:
 			return 0;
 		}
 		int sum = 0;
-		if (root->left && !root->left->left && !root->left->right) {
+		if (root->left && !root->left->left && !root->left->right) {// forgot root->left
 			sum = root->left->val;
             cout << "sum: "<<sum << endl;
 		}
@@ -76,8 +76,33 @@ public:
 };
 */
 
-int main()
+class GfG
 {
+public:
+    static int i;
+
+    GfG()
+    {
+        // Do nothing 
+    };
+    void change() {
+        i = i * i;
+    }
+};
+
+int GfG::i = 1;
+int main()
+{// C++ program to demonstrate static 
+// variables inside a class 
+
+
+
+        GfG obj;
+        // prints value of i 
+        obj.change();
+        cout << obj.i;
+    
+
 
 
 	TreeNode tree1(3);

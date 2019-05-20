@@ -12,6 +12,39 @@
 #include <vector>
 using namespace std;
 
+class Solution {
+public:
+    int numUniqueEmails(vector<string>& emails) {
+        set<string>ans;
+        for (int i = 0; i < emails.size(); i++) {
+            string temp;
+            for (int j = 0; j < emails[i].size(); j++) {
+                if (emails[i][j] == '+') {
+                    while (emails[i][j] != '@') {
+                        j++;
+                    }
+                    while (j < emails[i].size()) {
+                        temp += emails[i][j];
+                        j++;
+                    }
+                }
+
+                if (emails[i][j] == '@')
+                    while (j < emails[i].size()) {
+                        temp += emails[i][j];
+                        j++;
+                    }
+                if (emails[i][j] != '.') {
+                    temp += emails[i][j];
+                }
+            }
+            cout << temp << endl;
+            ans.insert(temp);
+        }
+        return ans.size();
+
+    }
+};
 
 class Solution {
 public:

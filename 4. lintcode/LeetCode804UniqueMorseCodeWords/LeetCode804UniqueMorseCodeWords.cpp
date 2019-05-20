@@ -13,6 +13,29 @@
 #include <vector>
 using namespace std;
 
+
+class Solution {
+public:
+    int uniqueMorseRepresentations(vector<string>& words) {
+        map<string, int> ans;
+        int returnValue = 0;
+        vector<string> container = { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.." };
+
+        for (int i = 0; i < words.size(); i++) {
+            string temp = "";
+            for (int j = 0; j < words[i].size(); j++) {
+                temp += container[words[i][j] - 'a'];
+            }
+            if (ans[temp] == 0) {
+                returnValue++;
+            }
+            ans[temp]++;
+        }
+        return returnValue;
+
+    }
+};
+
 class Solution {
 public:
     int uniqueMorseRepresentations(vector<string>& words) {

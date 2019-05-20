@@ -23,7 +23,7 @@
     <ProjectGuid>{5124208C-00FB-4586-9128-0D33A2E54F49}</ProjectGuid>
     <RootNamespace>LeetCode746MinCostClimbingStairs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>LeetCode764MinCostClimbingStairs</ProjectName>
+    <ProjectName>LeetCode746MinCostClimbingStairs</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -116,7 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LeetCode764MinCostClimbingStairs.cpp" />
+    <ClCompile Include="LeetCode746MinCostClimbingStairs.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

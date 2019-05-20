@@ -1,0 +1,4 @@
+﻿  trie.cpp
+\\mac\home\documents\github\resume\code\code\trie\trie.cpp(42): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\code\code\trie\trie.cpp(62): warning C4018: '<': signed/unsigned mismatch
+  trie.vcxproj -> \\Mac\Home\Documents\GitHub\resume\code\code\Debug\trie.exe

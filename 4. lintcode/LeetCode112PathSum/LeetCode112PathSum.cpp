@@ -82,6 +82,10 @@ public:
 
 		if (!root)
 			return 0;
+
+        /*if (root == NULL) { 
+            return false;
+        }*/
 		if (root->left == nullptr && root->right == nullptr) return root->val == sum;
 		int new_sum = sum - root->val;
 		return hasPathSum(root->left, new_sum) || hasPathSum(root->right, new_sum);
@@ -98,10 +102,16 @@ public:
 		//else if (root->val>sum) return false;      This should be avoided as there can be also negative integers as node values
 		else if (root->val == sum && root->left == NULL && root->right == NULL)
 			return true;
+        /*if (sum < 0) {
+            return false;  // does not work, need to think about negative number
+        }*/
+
+        		return hasPathSum(root->left, sum - root->val) || hasPathSum(root->right, sum - root->val);
 
 		if (hasPathSum(root->left, sum - root->val)) return true;
 		if (hasPathSum(root->right, sum - root->val)) return true;
 		return false;
+
 	}
 };
 

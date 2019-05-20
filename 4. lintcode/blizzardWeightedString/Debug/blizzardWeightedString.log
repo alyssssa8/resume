@@ -1,0 +1,6 @@
+﻿  blizzardWeightedStrings.cpp
+\\mac\home\documents\github\resume\4. lintcode\blizzardweightedstring\blizzardweightedstrings.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+\\mac\home\documents\github\resume\4. lintcode\blizzardweightedstring\blizzardweightedstrings.cpp(19): warning C4309: 'initializing': truncation of constant value
+\\mac\home\documents\github\resume\4. lintcode\blizzardweightedstring\blizzardweightedstrings.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+\\mac\home\documents\github\resume\4. lintcode\blizzardweightedstring\blizzardweightedstrings.cpp(53): warning C4309: 'initializing': truncation of constant value
+  blizzardWeightedString.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\blizzardWeightedStrings.exe

@@ -12,6 +12,15 @@
 #include <vector>
 using namespace std;
 
+
+class Solution2 {
+public:
+    vector<int> sortArrayByParity(vector<int>& A) {
+        for (int i = 0, j = 0; j < A.size(); j++)
+            if (A[j] % 2 == 0) swap(A[i++], A[j]);
+        return A;
+    }
+};
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -40,8 +49,8 @@ int main()
     vector<int>nums({ 3, 1 ,0 });
     Solution question;
     question.sortArrayByParity(nums);
-    //Solution2 question2;
-    //question2.sortedArrayToBST(nums);
+    Solution2 question2;
+    question2.sortArrayByParity(nums);
 
     return 0;
 }

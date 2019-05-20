@@ -75,7 +75,7 @@ public:
 
 class Solution {
 private:
-	TreeNode * ans;
+	TreeNode * ans; 
 public:
 	TreeNode * lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
 		if (p->val < q->val) {
@@ -88,7 +88,7 @@ public:
 
 	}
 
-	void dfs(TreeNode* root, TreeNode* p, TreeNode* q) {
+	void dfs(TreeNode* root, TreeNode* p, TreeNode* q) { // if do not return void, every dfs will need to have a  return value
 		if (p->val <= root->val && q->val >= root->val) {
 			ans = root;
 			return;

@@ -32,7 +32,7 @@
 #include<unordered_map>
 #include <vector>
 using namespace std;
-
+ // use this one
 class MyStack2 {
 private:
 	queue<int> q;

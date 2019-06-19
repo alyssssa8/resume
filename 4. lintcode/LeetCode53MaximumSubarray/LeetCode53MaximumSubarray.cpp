@@ -41,7 +41,8 @@ public:
         {
             sum += nums[i];
             ans = max(ans, sum);
-            sum = max(sum, 0);
+            sum = max(sum, 0); //must put is here, can not move to up! 
+            // if input is -1 expected is -1, but the output is 0;
               
         }
         return ans;

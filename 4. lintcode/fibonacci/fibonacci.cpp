@@ -18,7 +18,7 @@
 using namespace std;
 
 //100%
-class Solution {
+class Solution3 {
 public:
     int fib(int N) {
         vector<int> v;
@@ -31,7 +31,7 @@ public:
         return v[N];
     }
 };
-class Solution {
+class Solution2 {
 public:
 	int Fibonacci(int n)
 	{
@@ -43,7 +43,22 @@ public:
 
 };
 
+class Solution {
+public:
+    int fib(int N) {
+        if (N < 2)
+            return N;
+        int a = 0, b = 1, c = 0;
+        for (int i = 1; i < N; i++)
+        {
+            c = a + b;
+            a = b;
+            b = c;
+        }
+        return c;
 
+    }
+};
 int main()
 {
 

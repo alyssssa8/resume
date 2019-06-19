@@ -20,7 +20,7 @@
 #include <vector>
 using namespace std;
 
-
+// 5 4 3 2 1 8 1
 class Solution {
 public:
 	int peakIndexInMountainArray(vector<int>& A) {

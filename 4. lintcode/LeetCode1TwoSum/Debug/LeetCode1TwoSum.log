@@ -1,0 +1,10 @@
+﻿  LeetCode1TwoSum.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode1twosum\leetcode1twosum.cpp(22): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode1twosum\leetcode1twosum.cpp(45): error C2065: 'Test': undeclared identifier
+\\mac\home\documents\github\resume\4. lintcode\leetcode1twosum\leetcode1twosum.cpp(45): error C2146: syntax error: missing ';' before identifier 'question2'
+\\mac\home\documents\github\resume\4. lintcode\leetcode1twosum\leetcode1twosum.cpp(45): error C2065: 'question2': undeclared identifier
+\\mac\home\documents\github\resume\4. lintcode\leetcode1twosum\leetcode1twosum.cpp(47): error C2065: 'question2': undeclared identifier
+\\mac\home\documents\github\resume\4. lintcode\leetcode1twosum\leetcode1twosum.cpp(48): error C2065: 'Test2': undeclared identifier
+\\mac\home\documents\github\resume\4. lintcode\leetcode1twosum\leetcode1twosum.cpp(48): error C2146: syntax error: missing ';' before identifier 'question3'
+\\mac\home\documents\github\resume\4. lintcode\leetcode1twosum\leetcode1twosum.cpp(48): error C2065: 'question3': undeclared identifier
+\\mac\home\documents\github\resume\4. lintcode\leetcode1twosum\leetcode1twosum.cpp(49): error C2065: 'question3': undeclared identifier

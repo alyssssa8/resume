@@ -39,7 +39,31 @@
 using namespace std;
 
 
+// use this one
 class Solution {
+private:
+    int oldColor;
+public:
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
+        if (image[sr][sc] == newColor) {
+            return image;
+        }
+        oldColor = image[sr][sc];
+        dfs(image, sr, sc, newColor);
+        return image;
+    }
+    void dfs(vector<vector<int>> & image, int sr, int sc, int newColor) {
+        if (sr < image.size() && sr >= 0 && sc < image[0].size() && sc >= 0 && image[sr][sc] == oldColor) {
+            image[sr][sc] = newColor;
+            dfs(image, sr, sc - 1, newColor);
+            dfs(image, sr, sc + 1, newColor);
+            dfs(image, sr - 1, sc, newColor);
+            dfs(image, sr + 1, sc, newColor);
+        }
+        return;
+    }
+};
+class Solution3 {
 private:
 
 

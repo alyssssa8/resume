@@ -1,3 +1,3 @@
 ﻿  LeetCode344ReverseString.cpp
-\\mac\home\documents\github\resume\4. lintcode\leetcode344reversestring\leetcode344reversestring.cpp(28): warning C4018: '<=': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode344reversestring\leetcode344reversestring.cpp(47): warning C4018: '<=': signed/unsigned mismatch
   LeetCode344ReverseString.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode344ReverseString.exe

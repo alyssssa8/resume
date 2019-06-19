@@ -116,7 +116,7 @@ public:
 		}
 	}
 };
-
+// use this one
 class Solution_1 {
 
 public:
@@ -331,7 +331,7 @@ int main()
 	*/
 
 	vector<int> candidates({ 1,2,3 });
-	Solution test;
+    Solution_1 test;
 	test.permute(candidates);
 	return 0;
 }

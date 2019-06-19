@@ -33,7 +33,6 @@ using namespace std;
 class Solution {
 public:
 	vector<int> findDisappearedNumbers(vector<int>& nums) {
-
 		vector<int>ans;
 		for (int i = 1; i <= nums.size(); i++) {
 			ans.push_back(i);
@@ -69,11 +68,10 @@ public:
 
 	}
 };
-
+//bad one 
 class Solution2  {
 public:
 	vector<int> findDisappearedNumbers(vector<int>& nums) {
-
 		vector<int>ans;
 		int count = 0;
 		set <int > newNumber(nums.begin(), nums.end());
@@ -91,12 +89,13 @@ public:
 		return ans;
 	}
 };
+
+
 int main()
 {
 	vector<int>nums({ 4,3,2,7,8,2,3,1});
 	Solution question;
 	question.findDisappearedNumbers(nums);
-
 	/*Solution question2;
 	question2.sortedArrayToBST(nums);
 */

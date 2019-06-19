@@ -1,4 +1,6 @@
 ﻿  LeetCode804UniqueMorseCodeWords.cpp
-\\mac\home\documents\github\resume\4. lintcode\leetcode804uniquemorsecodewords\leetcode804uniquemorsecodewords.cpp(21): warning C4018: '<': signed/unsigned mismatch
-\\mac\home\documents\github\resume\4. lintcode\leetcode804uniquemorsecodewords\leetcode804uniquemorsecodewords.cpp(23): warning C4018: '<': signed/unsigned mismatch
-  LeetCode804UniqueMorseCodeWords.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode804UniqueMorseCodeWords.exe
+\\mac\home\documents\github\resume\4. lintcode\leetcode804uniquemorsecodewords\leetcode804uniquemorsecodewords.cpp(24): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode804uniquemorsecodewords\leetcode804uniquemorsecodewords.cpp(26): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode804uniquemorsecodewords\leetcode804uniquemorsecodewords.cpp(39): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode804uniquemorsecodewords\leetcode804uniquemorsecodewords.cpp(17): note: see declaration of 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode804uniquemorsecodewords\leetcode804uniquemorsecodewords.cpp(60): error C2079: 'question' uses undefined class 'Solution'

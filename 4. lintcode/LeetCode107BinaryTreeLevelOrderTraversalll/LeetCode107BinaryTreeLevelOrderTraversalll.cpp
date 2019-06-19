@@ -26,14 +26,7 @@
 #include <map>   //hash table
 #include <vector>
 
-
-
-
 using namespace std;
-
-
-
-
 
  //Definition for a binary tree node.
  struct TreeNode {

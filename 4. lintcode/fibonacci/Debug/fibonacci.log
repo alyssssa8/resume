@@ -1,2 +1,3 @@
 ﻿  fibonacci.cpp
-  fibonacci.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\fibonacci.exe
+\\mac\home\documents\github\resume\4. lintcode\fibonacci\fibonacci.cpp(67): error C2039: 'Fibonacci': is not a member of 'Solution'
+  \\mac\home\documents\github\resume\4. lintcode\fibonacci\fibonacci.cpp(46): note: see declaration of 'Solution'

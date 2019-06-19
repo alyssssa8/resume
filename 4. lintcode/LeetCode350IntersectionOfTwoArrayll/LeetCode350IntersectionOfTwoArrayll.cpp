@@ -58,6 +58,8 @@ public:
 		return res;
 	}
 };
+
+// use this one
 class Solution2 {
 public:
 	vector<int> intersect(vector<int>& nums1, vector<int>& nums2)

@@ -1,0 +1,3 @@
+﻿  LeetCode965UnivaluedBinaryTree.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode965univaluedbinarytree\leetcode965univaluedbinarytree.cpp(67): error C2664: 'bool Solution::isUnivalTree(TreeNode *)': cannot convert argument 1 from 'TreeNode' to 'TreeNode *'
+  \\mac\home\documents\github\resume\4. lintcode\leetcode965univaluedbinarytree\leetcode965univaluedbinarytree.cpp(67): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called

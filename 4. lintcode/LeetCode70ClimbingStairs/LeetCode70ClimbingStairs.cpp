@@ -39,23 +39,7 @@
 using namespace std;
 
 
-class Solution2 {
-public:
-	int climbStairs(int n) {
-		int two = 1;
-		int one = 1;
-		int curr = 1;
-		for (int i = 2; i <= n; i++) {
-			curr = two + one;
-			two = one;
-			one = curr;
-		}
-
-		return curr;
-
-	}
-
-};
+//use this
 class Solution3 {
 public:
 	int climbStairs(int n) {
@@ -67,11 +51,8 @@ public:
 			two = one;
 			one = curr;
 		}
-
 		return curr;
-
 	}
-
 };
 
 
@@ -102,8 +83,8 @@ public:
 class Solution4 {
 public:
     int climbStairs(int n)
-    {
-        vector<int> steps(n, 0);
+    { // may not need +1, could be steps(n,0)
+        vector<int> steps(n +1, 0);  //if n ==3, steps should be steps[  0,1,2 ] 
         steps[0] = 1;
         steps[1] = 2;
         for (int i = 2; i < n; i++)
@@ -138,22 +119,21 @@ public:
         }
 */
 
-		if (f[n]>0) {
-			
+		if (f[n]>0) {		
 			return f[n]; //pay attention on this one, when there already have value, they just use the value. 
+            //because recursive, 
 		}
 		f[n] = numOfSolutions(n - 1) + numOfSolutions(n - 2);
 		return f[n];
 	}
-
 };
 
 int main()
 {
 
 	vector<int>nums({ 3, 1 ,0 });
-	Solution question;
-	int ans = question.climbStairs(5);
+	Solution4 question;
+	int ans = question.climbStairs(9);
 	/*Solution question2;
 	question2.climbStairs(8);*/
 

@@ -10,6 +10,23 @@
 #include<unordered_map>
 #include <vector>
 using namespace std;
+
+//use this one
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        if (prices.empty()) {
+            return 0;
+        }
+        int minInt = prices[0];
+        int maxInt = 0;
+        for (int i = 1; i < prices.size(); i++) {
+            maxInt = max(prices[i] - minInt, maxInt);
+            minInt = min(prices[i], minInt);
+        }
+        return maxInt;
+    }
+};
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {

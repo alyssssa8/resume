@@ -36,7 +36,7 @@ using namespace std;
 //1 ^ 3 = 1 ^ 011 (in binary) = 001 ^ 011 (binary)
 //so the src(001) will be inverted in the 0th bit and 2 bit(because 101).
 //so 001 ^ 011 = 010 -> 1(inverted)0 (same)0 (inverted)
-
+//(3 *4) /  2 = 6
 // Author: Zhonghua Xi (huahua)
 class Solution {
 public:
@@ -56,7 +56,7 @@ public:
 	}
 };
 
-
+//use this one
 class Solution4 {
 public:
 	int missingNumber(vector<int>& nums) {
@@ -68,21 +68,21 @@ public:
 		return sum;
 	}
 };
-
-
-class Solution3 {
+//26%
+class Solution2 {
 public:
-	int missingNumber(vector<int>& nums) {
-		sort(nums.begin(), nums.end());
-		for (int i = 0; i <= nums.size(); i++) {
-			if (nums[i] != i) {
-				return i;
-			}
-		}
-		return -1;
-	}
-};
+    int missingNumber(vector<int>& nums) {
+        int i = 0;
+        sort(nums.begin(), nums.end());
+        for (; i < nums.size(); i++) {
+            if (nums[i] != i) {
+                return i;
+            }
+        }
+        return i;
 
+    }
+};
 
 class Solution2 {
 public:

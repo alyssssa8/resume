@@ -79,7 +79,7 @@ public:
 	}
 };
 
-
+//use this one!
 class Solution {
 public:
 	int singleNumber(vector<int>& nums)
@@ -92,6 +92,9 @@ public:
 		return result;
 	}
 };
+
+//x^x = 0.
+//0 ^ x = x.
 
 //39.39%
 class Solution {

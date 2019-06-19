@@ -1,3 +1,5 @@
 ﻿  LeetCode811SubdomainVisitCount.cpp
-\\mac\home\documents\github\resume\4. lintcode\leetcode811subdomainvisitcount\leetcode811subdomainvisitcount.cpp(44): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode811subdomainvisitcount\leetcode811subdomainvisitcount.cpp(20): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode811subdomainvisitcount\leetcode811subdomainvisitcount.cpp(24): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode811subdomainvisitcount\leetcode811subdomainvisitcount.cpp(72): warning C4018: '<': signed/unsigned mismatch
   LeetCode811SubdomainVisitCount.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode811SubdomainVisitCount.exe

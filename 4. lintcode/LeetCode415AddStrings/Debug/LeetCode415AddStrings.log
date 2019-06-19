@@ -1,2 +1,6 @@
 ﻿  LeetCode415AddStrings.cpp
-  LeetCode415AddStrings.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode415AddStrings.exe
+\\mac\home\documents\github\resume\4. lintcode\leetcode415addstrings\leetcode415addstrings.cpp(35): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+\\mac\home\documents\github\resume\4. lintcode\leetcode415addstrings\leetcode415addstrings.cpp(100): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode415addstrings\leetcode415addstrings.cpp(25): note: see declaration of 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode415addstrings\leetcode415addstrings.cpp(119): error C2079: 'question' uses undefined class 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode415addstrings\leetcode415addstrings.cpp(121): error C2079: 'question2' uses undefined class 'Solution'

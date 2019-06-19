@@ -78,7 +78,6 @@ private:
     vector<string> result;
 
 public:
-
     vector<string> binaryTreePaths(TreeNode* root)
     {
         //vector<string> result;
@@ -89,19 +88,20 @@ public:
     }
     void binaryTreePaths(TreeNode* root, string t)
     {
-        if (!root->left && !root->right) {
+        //if (!root->left && !root->right) {
+            if (!root) {
             result.push_back(t);
             return;
         }
 
-        if (root->left)
+        if (root)
         {
-            binaryTreePaths(root->left, t + "->" + to_string(root->left->val));
+            binaryTreePaths(root->left, t + "->" + to_string(root->val));
 
         }
-        if (root->right)
+        if (root)
         {
-            binaryTreePaths(root->right, t + "->" + to_string(root->right->val));
+            binaryTreePaths(root->right, t + "->" + to_string(root->val));
         }
     }
 
@@ -142,6 +142,7 @@ public:
 void print(TreeNode *tree1);
 int main()
 {
+
     TreeNode tree1(100);
     TreeNode tree2(200);
     TreeNode tree3(300);
@@ -154,12 +155,12 @@ int main()
 
     tree1.left = &tree2; // & to get the address of something
     tree1.right = &tree3;
-    tree2.left = &tree4; // & to get the address of something
+    //tree2.left = &tree4; // & to get the address of something
     tree2.right = &tree5;
-    tree3.left = &tree6; // & to get the address of something
-    tree3.right = &tree7;
-	tree4.left = &tree8; // & to get the address of something
-	tree4.right = &tree9;
+ //   tree3.left = &tree6; // & to get the address of something
+ //   tree3.right = &tree7;
+	//tree4.left = &tree8; // & to get the address of something
+	//tree4.right = &tree9;
     Solution s; // instance of solution
     vector<string> result =s.binaryTreePaths(&tree1);
     // << "the out put node " << endl;
@@ -169,7 +170,8 @@ int main()
     {
         cout << *iter << endl; // if vector is a struct, (*iter).member or iter->member
     }
-
+    Solution question;
+    question.binaryTreePaths(&tree1);
 
     print(&tree1);
 

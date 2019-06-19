@@ -43,6 +43,8 @@ using namespace std;
 // 找到最短的重复的距离
 // 1，2，2，3，1，4，2
 //index 1 to index 6, 6-1 =5 + 1 = 6
+
+
 class Solution2 {
 public:
 	int findShortestSubArray(vector<int>& nums) {

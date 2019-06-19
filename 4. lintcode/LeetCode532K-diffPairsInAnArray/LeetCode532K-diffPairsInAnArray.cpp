@@ -42,6 +42,9 @@
 using namespace std;
 // 3, 1, 4, 1, 5 
 //2
+
+//1,1,1,1,1 | k = 0
+//
 class Solution3 {
 public:
 	int findPairs(vector<int>& nums, int k) {
@@ -85,6 +88,7 @@ public:
 			if ((k != 0 && m.count(p.first + k) != 0)) { 
 				// count return the number of the value
 				// return the position of the value. 
+
 				++cnt;
 			}
 			if ((k == 0 && p.second > 1)) { // deal with k = 0. when the value more then 1, which means the count of that value more then 1. 
@@ -120,6 +124,46 @@ public:
 		}
 		return cnt;
 	}
+};
+// use this one
+class Solution {
+public:
+    int findPairs(vector<int>& nums, int k) {
+        if (nums.empty() || k < 0) {
+            return 0;
+        }
+        sort(nums.begin(), nums.end());
+        int p1 = 0;            // points to first member of the pair
+        int p2 = p1 + 1;       // points to second member of the pair
+        int result = 0;
+        while (p1 < nums.size() && p2 < nums.size()) {
+            if (p1 == p2) {
+                p2++;
+                continue;
+            }
+            if (p1 > 0 && nums[p1] == nums[p1 - 1]) {
+                // to avoid dupes
+                p1++;
+                continue;
+            }
+            int diff = abs(nums[p1] - nums[p2]);
+
+            if (diff == k) {
+                result++;
+                p1++;
+                p2++;
+            }
+            else if (diff < k) {
+                p2++;
+            }
+            else {
+                p1++;
+            }
+        }
+
+        return result;
+    }
+
 };
 
 

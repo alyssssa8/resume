@@ -1,6 +1,6 @@
 ﻿  LeetCode448FindAllNumbersDisapparedInAnArray.cpp
-\\mac\home\documents\github\resume\4. lintcode\leetcode448findallnumbersdisapparedinanarray\leetcode448findallnumbersdisapparedinanarray.cpp(38): warning C4018: '<=': signed/unsigned mismatch
-\\mac\home\documents\github\resume\4. lintcode\leetcode448findallnumbersdisapparedinanarray\leetcode448findallnumbersdisapparedinanarray.cpp(41): warning C4018: '<': signed/unsigned mismatch
-\\mac\home\documents\github\resume\4. lintcode\leetcode448findallnumbersdisapparedinanarray\leetcode448findallnumbersdisapparedinanarray.cpp(49): error C2011: 'Solution': 'class' type redefinition
+\\mac\home\documents\github\resume\4. lintcode\leetcode448findallnumbersdisapparedinanarray\leetcode448findallnumbersdisapparedinanarray.cpp(37): warning C4018: '<=': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode448findallnumbersdisapparedinanarray\leetcode448findallnumbersdisapparedinanarray.cpp(40): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode448findallnumbersdisapparedinanarray\leetcode448findallnumbersdisapparedinanarray.cpp(48): error C2011: 'Solution': 'class' type redefinition
   \\mac\home\documents\github\resume\4. lintcode\leetcode448findallnumbersdisapparedinanarray\leetcode448findallnumbersdisapparedinanarray.cpp(33): note: see declaration of 'Solution'
 \\mac\home\documents\github\resume\4. lintcode\leetcode448findallnumbersdisapparedinanarray\leetcode448findallnumbersdisapparedinanarray.cpp(97): error C2079: 'question' uses undefined class 'Solution'

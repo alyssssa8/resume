@@ -45,6 +45,11 @@ public:
 	}
 };
 
+
+
+// use this one
+//1,3,5,6 insert 1
+//1,3,5,6, insert  7
 class Solution {
 public:
 	int searchInsert(vector<int>& nums, int target) {

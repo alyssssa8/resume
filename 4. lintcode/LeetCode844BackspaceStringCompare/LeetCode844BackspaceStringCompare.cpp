@@ -44,7 +44,7 @@
 #include <vector>
 using namespace std;
 
-class Solution {
+class Solution6 {
 public:
 	bool backspaceCompare(string S, string T) {
 
@@ -69,7 +69,7 @@ public:
 	}
 };
 
-class Solution {
+class Solution5 {
 public:
 	bool backspaceCompare(string S, string T) {
 
@@ -103,7 +103,7 @@ public:
 	}
 };
 
-class Solution {
+class Solution4 {
 public:
 	bool backspaceCompare(string S, string T) {
 
@@ -133,7 +133,7 @@ public:
 	}
 };
 
-class Solution {
+class Solution3 {
 public:
 	bool backspaceCompare(string S, string T) {
 
@@ -169,7 +169,7 @@ public:
 
 //ab#c,#a#c
 //##b,b
-class Solution {
+class Solution2 {
 public:
 	bool backspaceCompare(string S, string T) {
 		int i = S.size() - 1, j = T.size() - 1;
@@ -204,7 +204,41 @@ public:
 		}
 	}
 };
+// use this one!
+class Solution {
+public:
+    bool backspaceCompare(string S, string T) {
+        int count = 0;
+        string first = "";
+        string second = "";
+        for (int i = S.size() - 1; i >= 0; i--) {
+            if (S[i] == '#') {
+                count++;
+            }
+            else if (S[i] != '#'&& count == 0) {
+                first = S[i] + first;
 
+            }
+            else {
+                count--;
+            }
+        }
+        count = 0;
+        for (int i = T.size() - 1; i >= 0; i--) {
+            if (T[i] == '#') {
+                count++;
+            }
+            else if (T[i] != '#'&& count == 0) {
+                second = T[i] + second;
+
+            }
+            else {
+                count--;
+            }
+        }
+        return first == second;
+    }
+};
 int main()
 {
 
@@ -212,7 +246,7 @@ int main()
 	/*Solution question;
 	question.backspaceCompare("xywrrmp","xywrrmu#p");*/
 	Solution question2;
-	bool res = question2.backspaceCompare("ab#c","#a#c");
+	bool res = question2.backspaceCompare("a##c","#a#c");
 
 	return 0;
 }

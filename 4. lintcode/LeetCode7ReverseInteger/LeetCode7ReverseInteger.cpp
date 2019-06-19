@@ -38,7 +38,7 @@ class Solution2 {
 public:
 	int reverse(int x) {
 		int rev = 0;
-		while (x != 0) {
+		while (x != 0) { // if x >0, will not work on negative integer. 
 			int pop = x % 10;
 			x /= 10;
 			if (rev > INT_MAX / 10) {
@@ -58,36 +58,44 @@ public:
 	int reverse(int x) {
 		long long res = 0; // must long , not int. 
 		while (x) { // pay attention on this part. 
-			res = res * 10 + x % 10;  //-12 % 10 = -2//-1*10 + -1%10=-20+-1
-			x /= 10; //-12 / 10 = -1
+			res = res * 10 + x % 10;  //-12 % 10 = -2  //-32*10 + (-1%10)=-320+(-1)
+			x /= 10; //-12 / 10 = -1    // -1 / 10 = 0;
 		}  // 2*-3 = =6
 		//For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 		return (res<INT_MIN || res>INT_MAX) ? 0 : res;
+
+       /* 
+       0 * 10 + (-123) % 10
+       res = 0 + (-3) = -3;
+
+*/
 	}
 };
 
-class Solution3 {
-public:
-    int reverse(int x) {
-        int ans = 0;
-        while (x > 0) {
-            x /= 10;
-            int temp = x % 10;
-            ans = ans * 10 + temp;
-        }
-        return ans;
-    }
-};
+//does  not work
+//class Solution3 {
+//public:
+//    int reverse(int x) {
+//        int ans = 0;
+//        while (x > 0) {
+//            x /= 10;
+//            int temp = x % 10;
+//            ans = ans * 10 + temp;
+//        }
+//        return ans;
+//    }
+//};
 
 int main()
 {
 
 
 	
-	Solution3 question;
-	question.reverse(123);
-	Solution2 question2;
-	question2.reverse(250);
+	/*Solution3 question;*/
+	/*question.reverse(123);*/
+
+	Solution question;
+	question.reverse(-123);
 
 	return 0;
 }

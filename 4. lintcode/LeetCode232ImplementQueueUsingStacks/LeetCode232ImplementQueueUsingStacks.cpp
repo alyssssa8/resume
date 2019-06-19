@@ -59,7 +59,7 @@ public:
 		return val;
 	}
 
-	/** Get the front element. */
+	/** Gepusht the front element. */
 	int peek() {
 		if (popStack.empty())
 			populatePopStack();

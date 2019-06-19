@@ -56,6 +56,7 @@ public:
 };
 
 // Author: Huahua
+//use this one!
 class Solution2 {
 public:
 	int countPrimes(int n) {
@@ -65,8 +66,9 @@ public:
 		for (int i = 2; i <= sqrt(n); ++i) {  // 1 2 3 4 5 6 7 8 9 10 | if n = 10, i will stop at 3. 3*3 = 9
 			// if 4*4=16.  before 3*3, all deleted. 3*4 already if still less than 
 			if (!f[i]) continue;
-			for (int j = i * i; j<n; j += i)
-				f[j] = 0;
+            for (int j = i * i; j < n; j += i) {
+                f[j] = 0;
+            }
 		}
 		int ans = accumulate(f.begin(), f.end(), 0);
 		return ans;

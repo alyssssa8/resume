@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LeetCode911SquaresOfASortedArray.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  LeetCode977SquaresOfASortedArray.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode911squaresofasortedarray\leetcode977squaresofasortedarray.cpp(19): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode911squaresofasortedarray\leetcode977squaresofasortedarray.cpp(25): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode911squaresofasortedarray\leetcode977squaresofasortedarray.cpp(42): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode911squaresofasortedarray\leetcode977squaresofasortedarray.cpp(48): warning C4018: '<': signed/unsigned mismatch
+  LeetCode911SquaresOfASortedArray.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode977SquaresOfASortedArray.exe

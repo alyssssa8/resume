@@ -23,6 +23,7 @@
     <ProjectGuid>{5E30E981-C762-44BB-8201-FB1A939F33BC}</ProjectGuid>
     <RootNamespace>LeetCode911SquaresOfASortedArray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>LeetCode977SquaresOfASortedArray</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,7 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LeetCode911SquaresOfASortedArray.cpp" />
+    <ClCompile Include="LeetCode977SquaresOfASortedArray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

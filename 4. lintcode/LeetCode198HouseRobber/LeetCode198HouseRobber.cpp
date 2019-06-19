@@ -34,6 +34,33 @@
 #include <vector>
 using namespace std;
 
+
+//use this!
+class Solution {
+public:
+    int rob(vector<int>& nums) {
+        int numsSize = nums.size();
+        vector<int> ans(nums.size(), 0);
+        if (numsSize == 0) {
+            return 0;
+        }
+        if (numsSize == 1) {
+            return nums[0];
+        }
+        if (numsSize == 2) {
+            return max(nums[1], nums[0]);
+        }
+        ans[0] = nums[0];
+        ans[1] = max(nums[1], nums[0]);
+        for (int i = 2; i < numsSize; i++) {
+            ans[i] = max(ans[i - 2] + nums[i], ans[i - 1]);
+        }
+        return ans[numsSize - 1];
+    }
+};
+
+
+
 class Solution {
 private:
 	vector<int> ans;

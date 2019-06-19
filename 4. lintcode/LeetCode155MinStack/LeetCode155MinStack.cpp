@@ -81,10 +81,11 @@ int main()
 
 
 	MinStack question;
+    question.push(1);
 	question.push(5);
 	question.push(3);
 	question.push(4);
-	question.push(1);
+	
 
 	question.getMin();
 	question.pop();

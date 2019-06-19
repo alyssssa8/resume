@@ -33,6 +33,43 @@ struct ListNode {
 	ListNode *next;
 	ListNode(int x) : val(x), next(NULL) {}
 };
+//could use this one
+class Solution3 {
+public:
+    ListNode* removeElements(ListNode* head, int val) {
+        ListNode ansHead = ListNode(0);
+        ansHead.next = head;
+        ListNode *cur = &ansHead;
+        while (cur->next != NULL) {
+            if (cur->next->val == val) {
+                cur->next = cur->next->next;
+            }
+            else {
+                cur = cur->next;
+            }
+        }
+        return ansHead.next;;
+    }
+};
+//could use this one
+class Solution2 {
+public:
+    ListNode* removeElements(ListNode* head, int val) {
+
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
+        ListNode* traverse = dummy;
+        while (traverse->next != NULL) {
+            if (traverse->next->val == val) {
+                traverse->next = traverse->next->next;
+            }
+            else {
+                traverse = traverse->next;
+            }
+        }
+        return dummy->next;
+    }
+};
 
 // if the target is the last element, will not have node->next = node->next->next. 
 class Solution {

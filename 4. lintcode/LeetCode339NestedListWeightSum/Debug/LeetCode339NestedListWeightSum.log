@@ -1,0 +1,21 @@
+﻿  LeetCode339NestedListWeightSum.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode339nestedlistweightsum\leetcode339nestedlistweightsum.cpp(71): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode339nestedlistweightsum\leetcode339nestedlistweightsum.cpp(76): error C2664: 'int Solution::DFS(std::vector<NestedInteger,std::allocator<_Ty>> &,int)': cannot convert argument 1 from 'const std::vector<NestedInteger,std::allocator<_Ty>>' to 'std::vector<NestedInteger,std::allocator<_Ty>> &'
+          with
+          [
+              _Ty=NestedInteger
+          ]
+  \\mac\home\documents\github\resume\4. lintcode\leetcode339nestedlistweightsum\leetcode339nestedlistweightsum.cpp(76): note: Conversion loses qualifiers
+\\mac\home\documents\github\resume\4. lintcode\leetcode339nestedlistweightsum\leetcode339nestedlistweightsum.cpp(91): error C2664: 'int Solution::depthSum(std::vector<NestedInteger,std::allocator<_Ty>> &)': cannot convert argument 1 from 'std::vector<int,std::allocator<_Ty>>' to 'std::vector<NestedInteger,std::allocator<_Ty>> &'
+          with
+          [
+              _Ty=NestedInteger
+          ]
+          and
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=NestedInteger
+          ]

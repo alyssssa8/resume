@@ -27,12 +27,20 @@ public:
                 myStack.push(')');
             }
             else {
-                if (myStack.empty() || myStack.top() != s[i]) {
-                    return false;
-                }
-                else {
+                if (myStack.empty() == false && myStack.top() == s[i]) {
                     myStack.pop();
                 }
+                else {
+                    return false;
+                }
+
+                // if (myStack.empty() ==true && myStack.top() !=s[i] ){
+             //     return false;
+             // }
+             // else{
+             //     myStack.pop();
+             // }
+
             }
         }
 

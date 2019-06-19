@@ -76,6 +76,7 @@ public:
 };
 
 //beats 100%
+//use this one
 class Solution2 {
 public:
 	vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {

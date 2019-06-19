@@ -53,7 +53,7 @@ public:
 		return max(min1 * min2 * max1, max1 * max2 * max3);
 	}
 };
-
+// use this one
 class  Solution {
 public:
 	int maximumProduct(vector<int>& nums) {

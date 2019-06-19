@@ -1,0 +1,5 @@
+﻿  LeetCode961NRepeatedElementInSize2NArray.cpp
+\\mac\home\documents\github\resume\4. lintcode\leetcode961nrepeatedelementinsize2narray\leetcode961nrepeatedelementinsize2narray.cpp(18): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode961nrepeatedelementinsize2narray\leetcode961nrepeatedelementinsize2narray.cpp(25): error C2011: 'Solution': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode961nrepeatedelementinsize2narray\leetcode961nrepeatedelementinsize2narray.cpp(15): note: see declaration of 'Solution'
+\\mac\home\documents\github\resume\4. lintcode\leetcode961nrepeatedelementinsize2narray\leetcode961nrepeatedelementinsize2narray.cpp(44): error C2079: 'question' uses undefined class 'Solution'

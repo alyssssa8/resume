@@ -12,15 +12,39 @@
 #include <vector>
 using namespace std;
 
+//own, 
+class Solution {
+public:
+    vector<int> sortArrayByParity(vector<int>& A) {
+        int even = 0;
+        int odd = A.size() - 1;
+        while (even < odd) {
+            if (A[even] % 2 == 0) {
+                even++;
+            }
+            else {
+                int temp = A[odd];
+                A[odd] = A[even];
+                A[even] = temp;
+                odd--;
+            }
+        }
+        return A;
+    }
+};
 
 class Solution2 {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
         for (int i = 0, j = 0; j < A.size(); j++)
-            if (A[j] % 2 == 0) swap(A[i++], A[j]);
+            if (A[j] % 2 == 0) {
+                swap(A[i++], A[j]);
+            }
         return A;
     }
 };
+
+//use this one
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {

@@ -41,13 +41,16 @@ public:											 // 4,2,3 x
 					return false;
 				}
 				if (i - 2 < 0 || nums[i - 2] <= nums[i]) {
-				// 1-2 <0 which means when i == 1, like 4,2
+				// i-2 <0 which means when i == 1, like 4,2
 				// || like 2,6,2,4   
 				// 2,6,1,4				
-				//1,6,2,4 
 				//1,3,2
+
+
+                //1,6,2,4 
 					nums[i - 1] = nums[i];
 				}
+                //8,9,2,
 				else {
 					nums[i] = nums[i - 1];
 				}

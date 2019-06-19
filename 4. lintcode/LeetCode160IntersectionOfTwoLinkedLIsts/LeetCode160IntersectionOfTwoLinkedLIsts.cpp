@@ -61,7 +61,7 @@ public:
 			p1 = p1->next;
 			p2 = p2->next;
 		
-			if (p1 == p2) { // when both are NULL or same.
+			if (p1 == p2) { // when both are NULL or same. so could not move the below!
 
 				return p1;// note is one the note book(white folder)
 			}

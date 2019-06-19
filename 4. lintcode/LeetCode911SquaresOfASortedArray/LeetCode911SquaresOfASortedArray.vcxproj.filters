@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LeetCode911SquaresOfASortedArray.cpp">
+    <ClCompile Include="LeetCode977SquaresOfASortedArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

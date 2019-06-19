@@ -95,7 +95,6 @@ using namespace std;
 		 }
 
 		 while (fast != NULL) {
-
 			 if (fast->next == NULL) {
 				 newStore = newStore->next;
 				 break;
@@ -172,8 +171,31 @@ public:
 	}
 };
 
-
-
+//use this one or fast one
+class Solution {
+public:
+    bool isPalindrome(ListNode* head) {
+        ListNode* first = head;
+        ListNode* second = head;
+        stack<int> temp;
+        int count = 0;
+        while (first != NULL) {
+            temp.push(first->val);
+            first = first->next;
+            count++;
+        }
+        int temp2 = 0;
+        while (temp2 <= count / 2 && head != NULL) {
+            if (temp.top() != second->val) {
+                return false;
+            }
+            temp.pop();
+            second = second->next;
+            temp2++;
+        }
+        return true;
+    }
+};
 int main()
 {
 

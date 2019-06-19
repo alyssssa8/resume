@@ -1,4 +1,5 @@
 ﻿  LeetCode268MissingNumber.cpp
 \\mac\home\documents\github\resume\4. lintcode\leetcode268missingnumber\leetcode268missingnumber.cpp(65): warning C4018: '<': signed/unsigned mismatch
-\\mac\home\documents\github\resume\4. lintcode\leetcode268missingnumber\leetcode268missingnumber.cpp(77): warning C4018: '<=': signed/unsigned mismatch
-  LeetCode268MissingNumber.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode268MissingNumber.exe
+\\mac\home\documents\github\resume\4. lintcode\leetcode268missingnumber\leetcode268missingnumber.cpp(77): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode268missingnumber\leetcode268missingnumber.cpp(87): error C2011: 'Solution2': 'class' type redefinition
+  \\mac\home\documents\github\resume\4. lintcode\leetcode268missingnumber\leetcode268missingnumber.cpp(72): note: see declaration of 'Solution2'

@@ -123,6 +123,27 @@ public:
 };
 
 
+//use this one
+class Solution4 {
+public:
+    bool isHappy(int n) {
+        int sum;
+        int count = 0;
+        while (n != 1) {
+            sum = 0;
+            while (n > 0) {
+                sum += (n % 10)*(n % 10);
+                n = n / 10;
+            }
+            n = sum;
+            count++;
+            if (count > 10) {
+                return false;
+            }
+        }
+        return n == 1;
+    }
+};
 int main()
 {
 

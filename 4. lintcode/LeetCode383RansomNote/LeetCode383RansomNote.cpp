@@ -80,7 +80,7 @@ public:
 		return true;
 	}
 };
-class Solution {
+class Solution5 {
 public:
 	bool canConstruct(string ransomNote, string magazine) {
 		int list[256] = { 0 };
@@ -96,12 +96,14 @@ public:
 		return true;
 	}
 };
+
+
 int main()
 {
 
 	vector<int>nums({ 3, 1 ,0 });
 	Solution question;
-	question.canConstruct("a", "b");
+	question.canConstruct("bg","efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj");
 	Solution2 question2;
 	question2.canConstruct("aa", "aab");
 

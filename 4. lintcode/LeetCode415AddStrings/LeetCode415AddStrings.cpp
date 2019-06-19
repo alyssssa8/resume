@@ -21,6 +21,39 @@
 #include<unordered_map>
 #include <vector>
 using namespace std;
+// use this one
+class Solution {
+public:
+    string addStrings(string num1, string num2) {
+
+        if (num1.size() < num2.size()) {
+            string temp = num1;
+            num1 = num2;
+            num2 = temp;
+        }
+        int carry = 0;
+        for (int i = num1.size() - 1, j = num2.size() - 1; i >= 0 && (carry | j >= 0); i--, j--) {
+
+            if (j >= 0) {
+                carry = carry + num1[i] - '0' + num2[j] - '0';
+                num1[i] = carry % 10 + '0';
+
+            }
+            else {
+                carry = carry + num1[i] - '0';
+                num1[i] = carry % 10 + '0';
+
+            }
+            carry /= 10;
+        }
+        if (carry) {
+            return "1" + num1;
+        }
+        else {
+            return num1;
+        }
+    }
+};
 
 //"17"+"28"
 

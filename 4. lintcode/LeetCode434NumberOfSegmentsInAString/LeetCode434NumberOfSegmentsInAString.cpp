@@ -33,9 +33,7 @@ public:
 			if (i == s.size() - 1 && s[i] != ' ') {
 				count++;
 			}
-
 		}
-
 		return count;
 	}
 };
@@ -76,7 +74,28 @@ public:
 		return count;
 	}
 };
+//own
+class Solution {
+public:
+    int countSegments(string s) {
+        int ans = 0;
+        for (int i = 0; i < s.size(); i++) {
+            if (s[i] != ' ') {
+                while (s[i] != ' '&& i < s.size()) {
+                    i++;
+                }
+                ans++;
+            }
+        }
 
+        if (s[s.size() - 1] != ' ') {
+            return ans++;
+        }
+        else {
+            return ans;
+        }
+    }
+};
 int main()
 {
 

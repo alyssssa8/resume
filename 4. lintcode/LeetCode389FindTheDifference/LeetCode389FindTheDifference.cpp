@@ -35,6 +35,45 @@ using namespace std;
 
 class Solution {
 public:
+    char findTheDifference(string s, string t) {
+        int a = 0;
+        int b = 0;
+        for (char c : s)
+            a += c;
+        for (char c : t)
+            b += c;
+
+        return b - a;
+    }
+};
+
+
+class Solution {
+public:
+    char findTheDifference(string s, string t) {
+        int i = 0, res = 0;
+
+        for (i = 0; i < s.size(); i++) {
+            res ^= s[i] ^ t[i];
+        }
+
+        return (res ^ t[i]); // t[i] is the last element in t
+    }
+};
+
+//It is the same idea with 136. Single Number (https://leetcode.com/problems/single-number/)
+class Solution {
+public:
+    char findTheDifference(string s, string t) {
+        char r = 0;
+        for (char c : s) r ^= c;
+        for (char c : t) r ^= c;
+        return r;
+    }
+};
+
+class Solution {
+public:
 	char findTheDifference(string s, string t) {
 		int key = 0, i = 0;
 		while (s[i]) {

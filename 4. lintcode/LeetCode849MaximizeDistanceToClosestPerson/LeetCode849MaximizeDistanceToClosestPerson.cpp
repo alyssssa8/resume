@@ -43,9 +43,27 @@
 #include <vector>
 using namespace std;
 
+// use this one;
+class Solution3 {
+public:
+    int maxDistToClosest(vector<int> seats) {
+        int i, j, res = 0, n = seats.size();
+        for (i = j = 0; j < n; ++j)
+            if (seats[j] == 1) {
+                if (i > 0) {
+                    res = max(res, (j - i + 1) / 2);
+                }
+                else {
+                    res = j;
+                }
 
+                i = j + 1;
+            }
+        res = max(res, n - i);
+        return res;
 
-
+    }
+};
 class Solution2 {
 public:
 	int maxDistToClosest(vector<int>& seats) {
@@ -69,7 +87,6 @@ public:
 };
 // 1000 or 0111
 
-
 class Solution {
 public:
     int maxDistToClosest(vector<int>& seats) {
@@ -77,7 +94,7 @@ public:
         int start = 0;
         for (int i = 0; i < seats.size(); i++) {
             start = i;
-            while (seats[i] == 0 && i < seats.size()) {
+            while (i < seats.size() && seats[i] == 0) {
                 i++;
             }
             if (start == 0 || (i == seats.size() && seats[i - 1] == 0)) {

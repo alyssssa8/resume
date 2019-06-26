@@ -33,7 +33,7 @@
 #include <vector>
 #include <set>
 using namespace std;
-
+// use this one
 class Solution {
 public:
 	int longestPalindrome(const string& s) {

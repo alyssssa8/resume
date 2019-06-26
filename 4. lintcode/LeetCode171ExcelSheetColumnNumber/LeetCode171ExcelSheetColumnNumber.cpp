@@ -56,12 +56,12 @@ public:
 		//for(auto c: s){
 		for (int i = 0; i <s.size(); i++) {
 			res *= 26;
-			res += s[i] - 'A' + 1;
+			res += s[i] - 'A' + 1;//need to use two line, otherwize, will be over flow. 
 		}
 		return res;
 	}
 };
-
+//Line 9: Char 19 : runtime error : signed integer overflow : 2147483624 + 87 cannot be represented in type 'int' (solution.cpp)
 class Solution {
 public:
 	int titleToNumber(string s) {

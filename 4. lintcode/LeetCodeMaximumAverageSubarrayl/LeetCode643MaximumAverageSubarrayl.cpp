@@ -24,10 +24,13 @@
 #include<unordered_map>
 #include <vector>
 using namespace std;
+
+
+
+
 class Solution2{
 public:
 	double findMaxAverage(vector<int>& nums, int k) {
-
 		vector<int>sum(nums.size());
 		sum[0] = nums[0];
 		// get all the sum from each step. 

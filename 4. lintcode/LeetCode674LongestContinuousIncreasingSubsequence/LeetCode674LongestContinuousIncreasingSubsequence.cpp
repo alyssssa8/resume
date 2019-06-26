@@ -25,6 +25,28 @@
 #include<unordered_map>
 #include <vector>
 using namespace std;
+
+// use this one
+class Solution {
+public:
+    int findLengthOfLCIS(vector<int>& nums) {
+        if (nums.size() == 0) {
+            return 0;
+        }
+        int ans = 0;
+        int count = 1;
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] <= nums[i - 1]) {
+                ans = max(ans, count);
+                count = 1;
+            }
+            else {
+                count++;
+            }
+        }
+        return max(ans, count);
+    }
+};
 class Solution4 {
 public:
 	int findLengthOfLCIS(vector<int>& nums) {

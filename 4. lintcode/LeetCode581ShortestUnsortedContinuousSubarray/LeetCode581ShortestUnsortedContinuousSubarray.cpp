@@ -25,33 +25,30 @@
 #include<unordered_map>
 #include <vector>
 using namespace std;
-
-
-
-//https://leetcode.com/problems/shortest-unsorted-continuous-subarray/discuss/103102/c++-O(n)-one-pass-solution-which-beats-almost
+///[1,2,3,4]
+// use this one!
 class Solution {
 public:
-	int findUnsortedSubarray(vector<int>& nums) {
-
-		int start = 0, end = -1, max = INT_MIN;
-		for (int i = 0; i<nums.size(); i++) {
-			if (max>nums[i]) {
-				
-				while (start - 1 >= 0 && nums[start - 1]>nums[i]){ // keep loop until start - 1 <= nums[i]
-					start--;
-				}
-				cout << "start: " << start << endl;
-				end = i + 1;
-			}
-			else {
-				
-				max = nums[start]; // need to have max, because when 1,6,4,3,10,9,15
-				cout << "max: " << max << endl;
-			}
-		}
-		return end - start;
-	}
+    int findUnsortedSubarray(vector<int>& nums) {
+        int start = -1, end = -1, max = INT_MIN;
+        for (int i = 0; i < nums.size(); i++) {
+            if (max > nums[i]) {
+                if (start == -1) {
+                    start = i - 1;
+                }
+                while (start - 1 >= 0 && nums[start - 1] > nums[i]) {
+                    start--;
+                }
+                end = i;
+            }
+            else {
+                max = nums[i];
+            }
+        }
+        return end - start + 1;
+    }
 };
+
 
 // 1,3,2,2,2 // so need to compare with the max, not nums[i - 1]
 // 1,2,3,3,3

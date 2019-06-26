@@ -36,7 +36,7 @@
 #include <vector>
 using namespace std;
 
-class Solution {
+class Solution3 {
 public:
 	int dominantIndex(vector<int>& nums) {
 		int maxIndex = 0;
@@ -52,7 +52,7 @@ public:
 	}
 };
 
-class Solution {
+class Solution2 {
 public:
 	int dominantIndex(vector<int>& nums) {
 		int maxInt = 0;
@@ -75,12 +75,34 @@ public:
 
 	}
 };
+class Solution {
+public:
+    int dominantIndex(vector<int>& nums) {
+        int larger = 0;
+        int largest = 0;
+        int index = 0;
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] > largest) {
+                index = i;
+                larger = largest;
+                largest = nums[i];
+            }
+            else if (nums[i] > larger) {
+                larger = nums[i];
+            }
+        }
+        if (larger + larger <= largest) {
+            return index;
+        }
+        return -1;
+    }
+}; 
 
 
 int main()
 {
 
-	vector<int>nums({ 3, 1 ,0 });
+	vector<int>nums({ 1,2,16,35,44,100,27,0 });
 	Solution question;
 	question.dominantIndex(nums);
 	Solution question2;

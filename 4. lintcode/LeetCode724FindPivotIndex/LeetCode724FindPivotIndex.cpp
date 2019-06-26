@@ -43,6 +43,49 @@
 #include <numeric>
 using namespace std;
 
+
+// use this one
+class Solution {
+public:
+    int pivotIndex(vector<int>& nums) {
+        int total = 0;
+        for (int num : nums) total += num;
+        int sum = 0;
+        for (int i = 0; i < nums.size(); i++) {
+
+            if (sum * 2 == total - nums[i]) {
+                return i;
+            }
+            sum += nums[i];
+        }
+        return -1;
+    }
+};
+class Solution3 {
+public:
+    int pivotIndex(vector<int>& nums) {
+
+        int start = 0;
+        int end = nums.size() - 1;
+        int left = nums[start++];
+        int right = nums[end--];
+        while (start < end) {
+            if (left < right) {
+                left += nums[start];
+                start++;
+            }
+            else if (left > right) {
+                right += nums[end];
+                end--;
+            }
+            if (left == right) {
+                return start;
+            }
+        }
+        return -1;
+    }
+};
+
 class Solution2 {
 public:
 	int pivotIndex(vector<int>& nums) {
@@ -116,9 +159,9 @@ public:
 */
 int main()
 {
-	vector<int>nums({ -1,-1,-1,-1,-1,0 });
-	//vector<int>nums({ 1, 7, 3, 6, 5, 6});
-	Solution question;
+	//vector<int>nums({ -1,-1,-1,-1,-1,0 });
+	vector<int>nums({ 1, 7, 3, 6, 5, 6});
+	Solution3 question;
 	question.pivotIndex(nums);
 	Solution question2;
 	question2.pivotIndex(nums);

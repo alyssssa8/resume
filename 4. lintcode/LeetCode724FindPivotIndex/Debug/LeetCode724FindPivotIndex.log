@@ -1,4 +1,4 @@
 ﻿  LeetCode724FindPivotIndex.cpp
-\\mac\home\documents\github\resume\4. lintcode\leetcode724findpivotindex\leetcode724findpivotindex.cpp(51): warning C4018: '<': signed/unsigned mismatch
-\\mac\home\documents\github\resume\4. lintcode\leetcode724findpivotindex\leetcode724findpivotindex.cpp(69): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode724findpivotindex\leetcode724findpivotindex.cpp(77): warning C4018: '<': signed/unsigned mismatch
+\\mac\home\documents\github\resume\4. lintcode\leetcode724findpivotindex\leetcode724findpivotindex.cpp(95): warning C4018: '<': signed/unsigned mismatch
   LeetCode724FindPivotIndex.vcxproj -> \\Mac\Home\Documents\GitHub\resume\4. lintcode\Debug\LeetCode724FindPivotIndex.exe

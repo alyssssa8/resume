@@ -130,6 +130,7 @@ public:
 
 				cout << *iter << ",";
 			}
+            cout << endl;
 			P.push_back(num);
 			return;
 		}

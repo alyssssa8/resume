@@ -46,7 +46,7 @@ using namespace std;
 
 
 
-class Solution {
+class Solution2 {
 public:
 	int maxDistToClosest(vector<int>& seats) {
 		int space = 0;
@@ -70,11 +70,30 @@ public:
 // 1000 or 0111
 
 
-
+class Solution {
+public:
+    int maxDistToClosest(vector<int>& seats) {
+        int ans = 0;
+        int start = 0;
+        for (int i = 0; i < seats.size(); i++) {
+            start = i;
+            while (seats[i] == 0 && i < seats.size()) {
+                i++;
+            }
+            if (start == 0 || (i == seats.size() && seats[i - 1] == 0)) {
+                ans = max(ans, i - start);
+            }
+            else {
+                ans = max(ans, (i - start + 1) / 2);
+            }
+        }
+        return ans;
+    }
+};
 int main()
 {
 
-	vector<int>nums({0, 1 });
+	vector<int>nums({1, 0,0,0 });
 	Solution question;
 	question.maxDistToClosest(nums);
 	Solution question2;
